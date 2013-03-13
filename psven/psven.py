@@ -1,0 +1,109 @@
+#! /usr/local/bin/python2.6
+import os
+import sys
+import time
+import pycurl
+import sventypes
+import worker
+import outer
+import inputer
+# We should ignore SIGPIPE when using pycurl.NOSIGNAL - see
+# the libcurl tutorial for more info.
+
+'''
+prepare inputhome,outputhome,num_conn thd_num, proxy,taskqueue,inter thread,outer thread
+'''
+try:
+    import signal
+    from signal import SIGPIPE, SIG_IGN
+    signal.signal(signal.SIGPIPE, signal.SIG_IGN)
+except ImportError:
+    pass
+
+if len(sys.argv)<2:
+	print "Usage: %s [dirpath with URLs to fetch] [path of destdir] [<# of concurrent connections>] [<# of threads>] " % sys.argv[0]
+	sys.exit(1)
+# Get args
+num_conn = 100
+thd_num = 4
+try:
+	inputhome = sys.argv[1]
+	if len(sys.argv) >= 3:
+		if os.path.exists(sys.argv[2]):
+			sventypes.Task.destdir=sys.argv[2]
+	if len(sys.argv) >= 4:
+		num_conn = int(sys.argv[3])
+	if len(sys.argv) >=5 :
+		thd_num = int(sys.argv[4])
+except:
+	print "Usage: %s [dirpath with URLs to fetch] [path of destdir] [<# of concurrent connections>] [<# of threads>] " % sys.argv[0]
+	raise SystemExit
+
+myproxy=sventypes.Proxy()
+if os.path.exists("proxy"):
+	for line in open("proxy"):
+		if len(line.strip())>0:
+			myproxy.add(line.strip())
+
+que=sventypes.TaskQueue()
+inter=inputer.Inputer(inputhome)
+inter.start()
+output=outer.Outer(que)
+output.start()
+
+def SignalHandler(sig, id):
+	global inter
+#	print 'sig=',sig
+#	if sig == signal.SIGUSR1:
+#		print 'received signal USR1'
+#	elif sig == signal.SIGHUP:
+##		print 'received signal HUP'
+#	elif sig == signal.SIGTERM:
+#		print 'received SIGTERM, shutting down'
+#	elif sig == signal.SIGINT:
+#		print 'received SIGINT, stop!'
+	inter.running = 0
+signal.signal(signal.SIGUSR1, SignalHandler)
+signal.signal(signal.SIGHUP, SignalHandler)
+signal.signal(signal.SIGTERM, SignalHandler)
+signal.signal(signal.SIGINT, SignalHandler)
+# init worker threads
+ws=[]
+for i in range(0,thd_num):
+	w=worker.worker(i,que,num_conn,myproxy)
+	ws.append(w)
+	w.start()
+
+count=0
+## init taskqueue from inter,when task is more than 1000000，sleep 1
+
+# 1.get a file from inter
+# 2.if has line in file ,read line from file. init a task with the line. add task to taskqueue ;if not has line,goto 1
+# 3. goto 2 
+while inter.running:
+	ifile = inter.get_task()
+	if ifile == None:
+		time.sleep(3)
+		continue
+	if not os.path.exists(ifile):
+		time.sleep(3)
+		continue
+	try:
+		for  line in open(ifile):
+			count+=1
+			task=sventypes.Task(count,line.strip())            
+			while que.size() >= 1000000:
+				time.sleep(1)
+			que.insert(task)
+			if inter.running == 0:
+				break
+	except:
+		continue
+if inter.running:
+	que.nomore = 1
+	for w in ws:
+		w.join()
+else:
+	que.clear()
+que.nomore = 2
+output.join()

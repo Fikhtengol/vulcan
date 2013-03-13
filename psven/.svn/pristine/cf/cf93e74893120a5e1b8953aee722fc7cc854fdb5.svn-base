@@ -1,0 +1,3 @@
+#! /bin/sh
+cd /home/data/psven
+nohup ./run.sh svenin svenout >& nohup.out &

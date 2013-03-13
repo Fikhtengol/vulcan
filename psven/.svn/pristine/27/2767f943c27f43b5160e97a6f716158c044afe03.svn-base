@@ -1,0 +1,28 @@
+#! /usr/bin/env python
+import os
+import sys
+from random import shuffle
+
+ins={}
+fins={}
+for f in os.listdir(sys.argv[1]):
+	if not f.endswith(".urllist"):
+		continue
+	for line in open(os.path.join(sys.argv[1],f)):
+		ins[line.strip()]=0
+for f in os.listdir(sys.argv[2]):
+	if f.find(".log") == -1:
+		continue
+	for line in open(os.path.join(sys.argv[2],f)):
+		if line.find("Success")!=-1:
+			ss=line.strip().split("\t")
+			fins[ss[len(ss)-1]]=0
+
+for key in fins.keys():
+	if ins.has_key(key):
+		del ins[key]
+
+keys = ins.keys()
+shuffle(keys)
+for key in keys:
+	print key

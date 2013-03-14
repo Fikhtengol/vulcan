@@ -1,7 +1,6 @@
 Install:
 	need python 2.6 or higher edition, we take the /usr/local/bin/python2.6 as the default python path.
 	step1: check out source
-		svn co http://o1.mzhen.cn:81/svnroot/Tea/src/branches/RB-tea-1.2/src/tea/test/psven/
 	step2: make input dir , output dir, and the log dir
 		you should prepare two dirs as input and output path for psven. we use
 		Input and Output in the following.

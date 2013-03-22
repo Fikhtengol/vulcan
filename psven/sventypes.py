@@ -8,11 +8,10 @@ import random
 def synchronized(method):
 	""" Work with instance method only !!! """
 	def new_method(self, *arg, **kws):
-		with self.lock:  
+		with self.lock:
 			return method(self, *arg, **kws)
 	return new_method
 class Task:
-	"""a Task is a fetch object,"""
 	destdir="."
 	def __init__(self,id,url):
 		self.id=id
@@ -39,9 +38,8 @@ class Task:
 class Politeness:
 	Inval = 5
 	def __init__(self):
-		self.hosts={} #key:time ,key=host+proxy
+		self.hosts={}
 	def tryme(self,host,proxy=""):
-		""" if key not apperd,or appeard more than Inval,return 1,else return 0"""
 		key=host+" "+proxy
 		if self.hosts.has_key(key):
 			if time.time() - self.hosts[key] > self.Inval:
@@ -55,14 +53,13 @@ class Politeness:
 			#print 'newtime=',self.hosts[host],'time.time=()',time.time(),
 			return 1
 class TaskQueue:
-
-	lock = threading.RLock()   
-	def __init__(self):           
+	lock = threading.RLock()
+	def __init__(self):
 		self.polite=Politeness()
 		self.count = 0
-		self.queue = []#queue is a list of task
-		self.nomore = 0 # 0 means keep on
-		self.output = "" # urls' contents. 
+		self.queue = []
+		self.nomore = 0
+		self.output = ""
 	@synchronized
 	def saveme(self,buf):
 		self.output += buf
@@ -71,7 +68,7 @@ class TaskQueue:
 		self.output = ""
 		self.queue = []
 	@synchronized
-	def doout(self): #return output and clear output
+	def doout(self):
 		ret = self.output
 		self.output = ""
 		return ret
@@ -87,8 +84,7 @@ class TaskQueue:
 
 	@synchronized
 	def pop(self,proxy=""):
-		"""pop when it's polite. """
-		count = 0 #try pop time=len(queue)
+		count = 0
 		while count < len(self.queue):
 			if self.nomore == 2:
 				return None
@@ -111,10 +107,6 @@ class TaskQueue:
 		return self.count
 
 class Proxy:
-	"""
-	add a chan to list ,and change rate
-	get a chan or None randomly by rate
-	"""
 	lock = threading.RLock()
 	def __init__(self):
 		self.rate=0

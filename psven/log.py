@@ -11,4 +11,3 @@ def init_log():
 	LOG.addHandler(filer)
 	return LOG
 LOG=init_log()
-

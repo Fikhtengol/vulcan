@@ -1,4 +1,4 @@
-#!/bin/env bash
+
 LOG=$1
 
 URLNUM=$(cat $LOG|  wc -l)

@@ -50,6 +50,7 @@ class Scheduler():
                 #TODO:write to log
                 print str(e)
 		continue
+            
 if __name__=="__main__":
     s=Scheduler()
     s.run()

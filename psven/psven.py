@@ -1,4 +1,4 @@
-#! /usr/local/bin/python2.6
+#! /usr/local/bin/python2.7
 import os
 import sys
 import time
@@ -6,19 +6,16 @@ import pycurl
 import sventypes
 import worker
 import outer
-import inputer
+import redis
+import config
+import time
 # We should ignore SIGPIPE when using pycurl.NOSIGNAL - see
 # the libcurl tutorial for more info.
 
 '''
 prepare inputhome,outputhome,num_conn thd_num, proxy,taskqueue,inter thread,outer thread
 '''
-try:
-    import signal
-    from signal import SIGPIPE, SIG_IGN
-    signal.signal(signal.SIGPIPE, signal.SIG_IGN)
-except ImportError:
-    pass
+
 
 if len(sys.argv)<2:
 	print "Usage: %s [dirpath with URLs to fetch] [path of destdir] [<# of concurrent connections>] [<# of threads>] " % sys.argv[0]
@@ -27,14 +24,14 @@ if len(sys.argv)<2:
 num_conn = 100
 thd_num = 4
 try:
-	inputhome = sys.argv[1]
+
+	if len(sys.argv) >= 2:
+		if os.path.exists(sys.argv[1]):
+			sventypes.Task.destdir=sys.argv[1]
 	if len(sys.argv) >= 3:
-		if os.path.exists(sys.argv[2]):
-			sventypes.Task.destdir=sys.argv[2]
-	if len(sys.argv) >= 4:
-		num_conn = int(sys.argv[3])
-	if len(sys.argv) >=5 :
-		thd_num = int(sys.argv[4])
+		num_conn = int(sys.argv[2])
+	if len(sys.argv) >=4 :
+		thd_num = int(sys.argv[3])
 except:
 	print "Usage: %s [dirpath with URLs to fetch] [path of destdir] [<# of concurrent connections>] [<# of threads>] " % sys.argv[0]
 	raise SystemExit
@@ -46,27 +43,11 @@ if os.path.exists("proxy"):
 			myproxy.add(line.strip())
 
 que=sventypes.TaskQueue()
-inter=inputer.Inputer(inputhome)
-inter.start()
+
+
 output=outer.Outer(que)
 output.start()
-
-def SignalHandler(sig, id):
-	global inter
-#	print 'sig=',sig
-#	if sig == signal.SIGUSR1:
-#		print 'received signal USR1'
-#	elif sig == signal.SIGHUP:
-##		print 'received signal HUP'
-#	elif sig == signal.SIGTERM:
-#		print 'received SIGTERM, shutting down'
-#	elif sig == signal.SIGINT:
-#		print 'received SIGINT, stop!'
-	inter.running = 0
-signal.signal(signal.SIGUSR1, SignalHandler)
-signal.signal(signal.SIGHUP, SignalHandler)
-signal.signal(signal.SIGTERM, SignalHandler)
-signal.signal(signal.SIGINT, SignalHandler)
+r=redis.StrictRedis(host=config.host,port=config.redis_port,db=0)
 # init worker threads
 ws=[]
 for i in range(0,thd_num):
@@ -75,35 +56,55 @@ for i in range(0,thd_num):
 	w.start()
 
 count=0
-## init taskqueue from inter,when task is more than 1000000，sleep 1
+# init taskqueue from inter,when task is more than 1000000,sleep 1
 
 # 1.get a file from inter
 # 2.if has line in file ,read line from file. init a task with the line. add task to taskqueue ;if not has line,goto 1
 # 3. goto 2 
-while inter.running:
-	ifile = inter.get_task()
-	if ifile == None:
-		time.sleep(3)
-		continue
-	if not os.path.exists(ifile):
-		time.sleep(3)
-		continue
+def pull_url(r):
+    '''pull the url from redis_server'''
+    while True:
+	    try:
+		    url=r.rpop(config.host)
+
+		    if url is None:
+			    time.sleep(3)
+			    continue
+		    res=r.zadd('urldo',time.mktime(time.localtime()),url)
+		    
+		    #TODO:res is 0
+		    return url
+	    except redis.exceptions.ConnectionError,e:
+		    errormsg=str(e)
+		    print errormsg
+		    continue
+	    except redis.exceptions.ResponseError,e:
+		    errormsg=str(e)+'supervison is not prepared well for the list of%s'%(config.host)
+		    print errormsg
+		    continue
+	    except Exception,e:
+		    errormsg=str(e)
+		    print errormsg
+		    continue
+
+while True:
 	try:
-		for  line in open(ifile):
-			count+=1
-			task=sventypes.Task(count,line.strip())            
-			while que.size() >= 1000000:
-				time.sleep(1)
-			que.insert(task)
-			if inter.running == 0:
-				break
-	except:
-		continue
-if inter.running:
-	que.nomore = 1
-	for w in ws:
-		w.join()
-else:
-	que.clear()
+            #url=pull_url(r)
+            url=r.rpop(config.host)
+	    if url is None:
+		    time.sleep(3)
+		    continue
+	    res=r.zadd('urldo',time.mktime(time.localtime()),url)
+            count+=1
+            task=sventypes.Task(count,url.strip())
+            while que.size() >= 1000000:
+                time.sleep(1)
+	    que.insert(task)
+	except Exception,e:
+	    print e	
+            continue
+for w in ws:
+    w.join()
 que.nomore = 2
 output.join()
+

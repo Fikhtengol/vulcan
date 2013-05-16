@@ -1,0 +1,290 @@
+
+2013-05-08@14:19:12	12103|-1323304128	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/18affd5167cfa332db59173ffd61a223  lijun@127.0.0.1:~/public/test
+2013-05-08@14:19:12	12103|-1323304128	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-08@14:19:47	12103|-1323304128	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/18affd5167cfa332db59173ffd61a223  lijun@127.0.0.1:~/public/test
+2013-05-08@14:19:47	12103|-1323304128	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-08@14:20:19	12103|-1323304128	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/18affd5167cfa332db59173ffd61a223  lijun@127.0.0.1:~/public/test
+2013-05-08@14:20:19	12103|-1323304128	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-08@14:27:39	3450|-1326449856	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/18affd5167cfa332db59173ffd61a223  lijun@127.0.0.1:~/public/test
+2013-05-08@14:27:39	3450|-1326449856	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-08@14:28:38	3450|-1326449856	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/18affd5167cfa332db59173ffd61a223  lijun@127.0.0.1:~/public/test
+2013-05-08@14:28:39	3450|-1326449856	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-08@14:54:48	3450|-1326449856	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/bbb28a11b6e743b85f422ad9c3bab2ba  lijun@127.0.0.1:~/public/test
+2013-05-08@14:54:48	3450|-1326449856	INFO	upload_remotefile	upload_file:34	pexpect expects (yes/no)
+2013-05-08@14:54:48	3450|-1326449856	ERROR	upload_remotefile	upload_file:56	End Of File (EOF) in read_nonblocking(). Exception style platform.
+<pexpect.spawn object at 0xb556e3cc>
+version: 2.4 ($Revision: 516 $)
+command: /usr/bin/scp
+args: ['/usr/bin/scp', '-P', '22', 'script_files/bbb28a11b6e743b85f422ad9c3bab2ba', 'lijun@127.0.0.1:~/public/test']
+searcher: searcher_re:
+    0: re.compile("password")
+buffer (last 100 chars): 
+before (last 100 chars): .0KB/s   --:-- ETAbbb28a11b6e743b85f422ad9c3bab2ba              100%   18     0.0KB/s   00:00    
+
+after: <class 'pexpect.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 5698
+child_fd: 6
+closed: False
+timeout: 100
+delimiter: <class 'pexpect.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+2013-05-08@14:55:07	3450|-1326449856	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/bbb28a11b6e743b85f422ad9c3bab2ba  lijun@127.0.0.1:~/public/test
+2013-05-08@14:55:07	3450|-1326449856	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-08@20:59:22	12206|-1326449856	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b script_files/c8381052e449fc17d003d6db7877213b  lijun@127.0.0.1:~/public/test/test1
+2013-05-08@20:59:22	12206|-1334842560	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b script_files/c8381052e449fc17d003d6db7877213b  lijun@127.0.0.2:~/public/test/test2
+2013-05-08@20:59:22	12206|-1343235264	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b script_files/c8381052e449fc17d003d6db7877213b  lijun@127.0.0.3:~/public/test/test3
+2013-05-08@20:59:22	12206|-1343235264	INFO	upload_remotefile	upload_file:34	pexpect expects (yes/no)
+2013-05-08@20:59:22	12206|-1334842560	INFO	upload_remotefile	upload_file:34	pexpect expects (yes/no)
+2013-05-08@20:59:22	12206|-1326449856	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-08@20:59:22	12206|-1343235264	ERROR	upload_remotefile	upload_file:56	End Of File (EOF) in read_nonblocking(). Braindead platform.
+<pexpect.spawn object at 0xb553fbcc>
+version: 2.4 ($Revision: 516 $)
+command: /usr/bin/scp
+args: ['/usr/bin/scp', '-P', '22', 'script_files/277a8d7d9d5172b0a875755d72604a9b', 'script_files/c8381052e449fc17d003d6db7877213b', 'lijun@127.0.0.3:~/public/test/test3']
+searcher: searcher_re:
+    0: re.compile("password")
+buffer (last 100 chars): 
+before (last 100 chars): ECDSA) to the list of known hosts.
+scp: /home/lijun/public/test/test3: No such file or directory
+
+after: <class 'pexpect.EOF'>
+match: None
+match_index: None
+exitstatus: 1
+flag_eof: True
+pid: 15362
+child_fd: 10
+closed: False
+timeout: 100
+delimiter: <class 'pexpect.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+2013-05-08@20:59:22	12206|-1334842560	ERROR	upload_remotefile	upload_file:56	End Of File (EOF) in read_nonblocking(). Exception style platform.
+<pexpect.spawn object at 0xb553ffac>
+version: 2.4 ($Revision: 516 $)
+command: /usr/bin/scp
+args: ['/usr/bin/scp', '-P', '22', 'script_files/277a8d7d9d5172b0a875755d72604a9b', 'script_files/c8381052e449fc17d003d6db7877213b', 'lijun@127.0.0.2:~/public/test/test2']
+searcher: searcher_re:
+    0: re.compile("password")
+buffer (last 100 chars): 
+before (last 100 chars): ECDSA) to the list of known hosts.
+scp: /home/lijun/public/test/test2: No such file or directory
+
+after: <class 'pexpect.EOF'>
+match: None
+match_index: None
+exitstatus: 1
+flag_eof: True
+pid: 15361
+child_fd: 9
+closed: False
+timeout: 100
+delimiter: <class 'pexpect.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+2013-05-08@20:59:56	12206|-1334842560	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b script_files/c8381052e449fc17d003d6db7877213b  lijun@127.0.0.1:~/public/test/test1
+2013-05-08@20:59:56	12206|-1343235264	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b script_files/c8381052e449fc17d003d6db7877213b  lijun@127.0.0.2:~/public/test/test2
+2013-05-08@20:59:56	12206|-1326449856	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b script_files/c8381052e449fc17d003d6db7877213b  lijun@127.0.0.3:~/public/test/test3
+2013-05-08@20:59:57	12206|-1343235264	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-08@20:59:57	12206|-1326449856	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-08@20:59:57	12206|-1334842560	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-08@21:01:31	12206|-1334842560	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b script_files/c8381052e449fc17d003d6db7877213b  lijun@127.0.0.1:~/public/test/test1
+2013-05-08@21:01:31	12206|-1326449856	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b script_files/c8381052e449fc17d003d6db7877213b  lijun@127.0.0.2:~/public/test/test2
+2013-05-08@21:01:31	12206|-1343235264	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b script_files/c8381052e449fc17d003d6db7877213b  lijun@127.0.0.3:~/public/test/test3
+2013-05-08@21:01:31	12206|-1334842560	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-08@21:01:31	12206|-1326449856	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-08@21:01:31	12206|-1343235264	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@17:16:42	11905|-1335891136	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.1:~/public/test/test1
+2013-05-09@17:16:42	11905|-1344283840	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.2:~/public/test/test2
+2013-05-09@17:16:42	11905|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.3:~/public/test/test3
+2013-05-09@17:16:42	11905|-1344283840	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@17:16:42	11905|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@17:16:42	11905|-1335891136	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@17:58:26	11905|-1369461952	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.1:~/public/test/test1
+2013-05-09@17:58:26	11905|-1361069248	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.2:~/public/test/test2
+2013-05-09@17:58:26	11905|-1352676544	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.3:~/public/test/test3
+2013-05-09@17:58:26	11905|-1361069248	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@17:58:26	11905|-1352676544	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@17:58:26	11905|-1369461952	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@17:59:53	11905|-1344283840	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.1:~/public/test/test1
+2013-05-09@17:59:53	11905|-1335891136	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.2:~/public/test/test2
+2013-05-09@17:59:53	11905|-1377854656	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.3:~/public/test/test3
+2013-05-09@17:59:54	11905|-1335891136	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@17:59:54	11905|-1377854656	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@17:59:54	11905|-1344283840	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@18:05:18	11905|-1344283840	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.1:~/public/test/test1
+2013-05-09@18:05:18	11905|-1377854656	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.2:~/public/test/test2
+2013-05-09@18:05:18	11905|-1335891136	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.3:~/public/test/test3
+2013-05-09@18:05:19	11905|-1377854656	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@18:05:19	11905|-1335891136	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@18:05:19	11905|-1344283840	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@18:29:48	23896|-1325429952	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.1:~/public/test/test1
+2013-05-09@18:29:48	23896|-1333822656	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.2:~/public/test/test2
+2013-05-09@18:29:48	23896|-1342215360	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.3:~/public/test/test3
+2013-05-09@18:29:48	23896|-1333822656	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@18:29:48	23896|-1325429952	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@18:29:48	23896|-1342215360	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@19:25:56	24980|-1331725504	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.1:~/public/test/test1
+2013-05-09@19:25:56	24980|-1323332800	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.2:~/public/test/test2
+2013-05-09@19:25:56	24980|-1340118208	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.3:~/public/test/test3
+2013-05-09@19:25:57	24980|-1340118208	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@19:25:57	24980|-1331725504	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@19:25:57	24980|-1323332800	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@19:30:04	24980|-1340118208	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.1:~/public/test/test1
+2013-05-09@19:30:04	24980|-1323332800	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.2:~/public/test/test2
+2013-05-09@19:30:04	24980|-1331725504	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.3:~/public/test/test3
+2013-05-09@19:30:04	24980|-1340118208	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@19:30:04	24980|-1323332800	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@19:30:04	24980|-1331725504	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@19:30:49	24980|-1331725504	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.1:~/public/test/test1
+2013-05-09@19:30:49	24980|-1323332800	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.2:~/public/test/test2
+2013-05-09@19:30:49	24980|-1340118208	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.3:~/public/test/test3
+2013-05-09@19:30:49	24980|-1331725504	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@19:30:49	24980|-1340118208	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@19:30:49	24980|-1323332800	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@19:32:51	24980|-1323332800	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.1:~/public/test/test1
+2013-05-09@19:32:51	24980|-1340118208	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.2:~/public/test/test2
+2013-05-09@19:32:51	24980|-1331725504	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.3:~/public/test/test3
+2013-05-09@19:32:52	24980|-1340118208	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@19:32:52	24980|-1323332800	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@19:32:52	24980|-1331725504	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@19:33:06	24980|-1323332800	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.2:~/public/test/test2
+2013-05-09@19:33:06	24980|-1331725504	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.1:~/public/test/test1
+2013-05-09@19:33:06	24980|-1340118208	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.3:~/public/test/test3
+2013-05-09@19:33:06	24980|-1323332800	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@19:33:06	24980|-1340118208	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@19:33:06	24980|-1331725504	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@19:33:17	24980|-1340118208	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.1:~/public/test/test1
+2013-05-09@19:33:17	24980|-1331725504	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.2:~/public/test/test2
+2013-05-09@19:33:17	24980|-1323332800	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.3:~/public/test/test3
+2013-05-09@19:33:17	24980|-1340118208	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@19:33:17	24980|-1331725504	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@19:33:17	24980|-1323332800	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@19:35:03	24980|-1340118208	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.1:~/public/test/test1
+2013-05-09@19:35:03	24980|-1323332800	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.2:~/public/test/test2
+2013-05-09@19:35:03	24980|-1331725504	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/277a8d7d9d5172b0a875755d72604a9b  lijun@127.0.0.3:~/public/test/test3
+2013-05-09@19:35:04	24980|-1340118208	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@19:35:04	24980|-1323332800	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-09@19:35:04	24980|-1331725504	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-10@13:21:01	12532|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/3c64b3aae787c00723b33c28faf9d944  lijun@127.0.0.2:~/public/test/test2
+2013-05-10@13:21:01	12532|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@12:48:44	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/9e817273e0b8c367781a048ce0215013  root@127.0.0.1:~/public/test/test1
+2013-05-12@12:48:45	6937|-1327498432	INFO	upload_remotefile	upload_file:39	pexpect expects (password)
+2013-05-12@12:52:31	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/9e817273e0b8c367781a048ce0215013  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@12:52:31	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@12:53:02	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/9e817273e0b8c367781a048ce0215013  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@12:53:02	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@12:54:08	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/9e817273e0b8c367781a048ce0215013  root@127.0.0.1:~/public/test/test1
+2013-05-12@12:54:08	6937|-1327498432	INFO	upload_remotefile	upload_file:39	pexpect expects (password)
+2013-05-12@12:54:28	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/9e817273e0b8c367781a048ce0215013  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@12:54:28	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@12:55:31	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/920043420631ebb033240b394ec20443  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@12:55:32	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@13:05:11	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/abf361a9fb873391b40c94e47058895f script_files/f0fb6aaabe18c5a36074aa9caf58313f  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@13:05:12	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@13:06:47	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/abf361a9fb873391b40c94e47058895f script_files/f0fb6aaabe18c5a36074aa9caf58313f  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@13:06:47	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@13:19:18	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/abf361a9fb873391b40c94e47058895f script_files/f0fb6aaabe18c5a36074aa9caf58313f  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@13:19:19	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@13:20:13	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/abf361a9fb873391b40c94e47058895f script_files/f0fb6aaabe18c5a36074aa9caf58313f  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@13:20:14	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@13:23:11	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/fd8269d16a369c874167e109583ef6df  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@13:23:11	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@13:26:12	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/fd8269d16a369c874167e109583ef6df  root@127.0.0.1:~/
+2013-05-12@13:26:13	6937|-1327498432	INFO	upload_remotefile	upload_file:39	pexpect expects (password)
+2013-05-12@13:38:43	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/fd8269d16a369c874167e109583ef6df  root@127.0.0.1:~/
+2013-05-12@13:38:43	6937|-1327498432	INFO	upload_remotefile	upload_file:39	pexpect expects (password)
+2013-05-12@13:57:15	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/fd8269d16a369c874167e109583ef6df  root@127.0.0.1:~/
+2013-05-12@13:57:15	6937|-1327498432	INFO	upload_remotefile	upload_file:39	pexpect expects (password)
+2013-05-12@13:57:57	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/fd8269d16a369c874167e109583ef6df  root@127.0.0.1:~/
+2013-05-12@13:57:58	6937|-1327498432	INFO	upload_remotefile	upload_file:39	pexpect expects (password)
+2013-05-12@13:58:36	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/fd8269d16a369c874167e109583ef6df  root@127.0.0.1:~/
+2013-05-12@13:58:36	6937|-1327498432	INFO	upload_remotefile	upload_file:39	pexpect expects (password)
+2013-05-12@14:17:45	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/fd8269d16a369c874167e109583ef6df  root@127.0.0.1:~/
+2013-05-12@14:17:45	6937|-1327498432	INFO	upload_remotefile	upload_file:39	pexpect expects (password)
+2013-05-12@14:18:35	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/fd8269d16a369c874167e109583ef6df  root@127.0.0.1:~/
+2013-05-12@14:18:36	6937|-1327498432	INFO	upload_remotefile	upload_file:39	pexpect expects (password)
+2013-05-12@14:19:35	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/920043420631ebb033240b394ec20443 script_files/7807362ebe3f65533a9a9da9b8218d0a  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@14:19:35	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@14:25:46	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/920043420631ebb033240b394ec20443  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@14:25:46	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@14:27:06	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/7807362ebe3f65533a9a9da9b8218d0a  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@14:27:06	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@14:28:34	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/7807362ebe3f65533a9a9da9b8218d0a  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@14:28:35	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@14:28:51	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/7807362ebe3f65533a9a9da9b8218d0a  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@14:28:52	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@14:29:41	6937|-1335891136	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/7807362ebe3f65533a9a9da9b8218d0a  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@14:29:42	6937|-1335891136	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@14:37:59	6937|-1335891136	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/6f9351364c12190f9efa049b79414063 script_files/920043420631ebb033240b394ec20443  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@14:37:59	6937|-1335891136	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@14:38:39	6937|-1335891136	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/6f9351364c12190f9efa049b79414063 script_files/920043420631ebb033240b394ec20443  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@14:38:39	6937|-1335891136	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@14:41:07	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/6f9351364c12190f9efa049b79414063 script_files/920043420631ebb033240b394ec20443 script_files/0b47cec4f90de5194564e64bd573c472  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@14:41:07	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@14:41:46	6937|-1335891136	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/6f9351364c12190f9efa049b79414063 script_files/0b47cec4f90de5194564e64bd573c472  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@14:41:46	6937|-1335891136	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@14:45:58	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/6f9351364c12190f9efa049b79414063 script_files/0b47cec4f90de5194564e64bd573c472 script_files/920043420631ebb033240b394ec20443  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@14:45:58	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@14:47:09	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/0b47cec4f90de5194564e64bd573c472 script_files/6f9351364c12190f9efa049b79414063 script_files/920043420631ebb033240b394ec20443  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@14:47:09	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@14:47:42	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/0b47cec4f90de5194564e64bd573c472 script_files/6f9351364c12190f9efa049b79414063 script_files/920043420631ebb033240b394ec20443  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@14:47:42	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@14:49:43	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/0b47cec4f90de5194564e64bd573c472 script_files/6f9351364c12190f9efa049b79414063 script_files/fda54b5cdb98e881a0be53e4e2279e64  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@14:49:44	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@14:54:16	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/0b47cec4f90de5194564e64bd573c472 script_files/6f9351364c12190f9efa049b79414063 script_files/fda54b5cdb98e881a0be53e4e2279e64  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@14:54:16	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@14:56:23	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/0b47cec4f90de5194564e64bd573c472 script_files/6f9351364c12190f9efa049b79414063 script_files/fda54b5cdb98e881a0be53e4e2279e64  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@14:56:23	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@14:56:36	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/0b47cec4f90de5194564e64bd573c472 script_files/6f9351364c12190f9efa049b79414063 script_files/fda54b5cdb98e881a0be53e4e2279e64  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@14:56:37	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@14:57:02	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/0b47cec4f90de5194564e64bd573c472 script_files/6f9351364c12190f9efa049b79414063 script_files/fda54b5cdb98e881a0be53e4e2279e64  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@14:57:02	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@14:58:20	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/0b47cec4f90de5194564e64bd573c472 script_files/6f9351364c12190f9efa049b79414063 script_files/fda54b5cdb98e881a0be53e4e2279e64 script_files/58d0b974c99f62935be53fd680d37795  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@14:58:21	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@15:00:26	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/58d0b974c99f62935be53fd680d37795 script_files/0b47cec4f90de5194564e64bd573c472 script_files/6f9351364c12190f9efa049b79414063 script_files/fda54b5cdb98e881a0be53e4e2279e64  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@15:00:26	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@15:03:37	6937|-1335891136	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/58d0b974c99f62935be53fd680d37795 script_files/0b47cec4f90de5194564e64bd573c472 script_files/6f9351364c12190f9efa049b79414063 script_files/fda54b5cdb98e881a0be53e4e2279e64  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@15:03:37	6937|-1335891136	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@15:04:54	6937|-1335891136	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/58d0b974c99f62935be53fd680d37795 script_files/0b47cec4f90de5194564e64bd573c472 script_files/6f9351364c12190f9efa049b79414063 script_files/fda54b5cdb98e881a0be53e4e2279e64  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@15:04:55	6937|-1335891136	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@15:05:54	6937|-1335891136	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/58d0b974c99f62935be53fd680d37795 script_files/0b47cec4f90de5194564e64bd573c472 script_files/6f9351364c12190f9efa049b79414063 script_files/fda54b5cdb98e881a0be53e4e2279e64  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@15:05:54	6937|-1335891136	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@15:06:53	6937|-1335891136	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/58d0b974c99f62935be53fd680d37795 script_files/0b47cec4f90de5194564e64bd573c472 script_files/6f9351364c12190f9efa049b79414063 script_files/fda54b5cdb98e881a0be53e4e2279e64  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@15:06:53	6937|-1335891136	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@15:18:19	6937|-1335891136	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/58d0b974c99f62935be53fd680d37795 script_files/0b47cec4f90de5194564e64bd573c472 script_files/6f9351364c12190f9efa049b79414063 script_files/fda54b5cdb98e881a0be53e4e2279e64  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@15:18:19	6937|-1335891136	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@15:18:33	6937|-1327498432	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/58d0b974c99f62935be53fd680d37795 script_files/0b47cec4f90de5194564e64bd573c472 script_files/6f9351364c12190f9efa049b79414063 script_files/fda54b5cdb98e881a0be53e4e2279e64  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@15:18:33	6937|-1327498432	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@18:00:02	6182|-1323332800	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/58d0b974c99f62935be53fd680d37795  lijun@127.0.0.1:~/public/test/test1
+2013-05-12@18:00:03	6182|-1323332800	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@20:49:06	13956|-1325401280	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/faad4a49b64908122e9a741d3990cdd7  lijun@127.0.0.1:~/public/test/test0
+2013-05-12@20:49:06	13956|-1325401280	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)
+2013-05-12@20:54:35	13956|-1325401280	INFO	upload_remotefile	upload_file:29	scp -P 22  script_files/faad4a49b64908122e9a741d3990cdd7  lijun@127.0.0.1:~/public/test/test0
+2013-05-12@20:54:35	13956|-1325401280	INFO	upload_remotefile	upload_file:42	pexpect expects (EOF)

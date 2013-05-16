@@ -1,3 +1,3 @@
-host='192.168.53.156'
-redis_host='192.168.53.153'
+localhost='127.0.0.1'
+supervison='127.0.0.1'
 redis_port=6379

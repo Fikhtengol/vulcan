@@ -1,0 +1,69 @@
+$def with(content)
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>cluster management platform </title>
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="statis/css/jquery-ui.css" rel="stylesheet">
+    <script src="static/js/jQuery.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/helper.js"></script>
+    <script src="static/js/jquery-ui.min.js"></script>
+    <script text="text/javascript">
+      $$("#sortable").sortable();
+    </script>
+
+  </head>
+  <body>
+ <div class="navbar navbar-inverse navbar-fixed-top" >
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Vulcan</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="/">home</a></li>
+
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid" style="margin:60px 10px 10px 10px ">
+      <div class="row-fluid">
+        <div class="span3">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header">服务器</li>
+              <li id="add_server"><a href="/add_server" >添加服务器(服务器组)</a></li>
+              <li id="manage_server"><a href="/manage_server">服务器管理</a></li>
+              <li id="manage_serverGroup"><a href="/manage_serverGroup">服务器组管理</a></li>
+              <li class="nav-header">服务组件</li>
+              <li id="add_service"><a href="/add_service">添加服务组件</a></li>	      
+              <li id="manage_service"><a href="/manage_service">服务组件管理</a></li>	      
+              <li class="nav-header">命令</li>
+              <li id="add_script"><a href="/add_script">创建命令(命令组)</a></li>
+              <li id="manage_script"><a href="/manage_script">命令管理</a></li>
+              <li id="manage_scriptGroup"><a href="/manage_scriptGroup">命令组管理</a></li>
+              <li class="nav-header">任务</li>
+              <li id="manage_task"><a href="/manage_task">任务管理</a></li>
+            </ul>
+          </div><!--/.well -->
+        </div><!--/span-->
+        <div class="span9">
+          $:content
+	</div><!--/span-->
+      </div><!--/row-->
+      <hr>
+      <footer>
+      </footer>
+    </div><!--/.fluid-container-->
+  </body>
+</html>

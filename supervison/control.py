@@ -1,5 +1,6 @@
 import config
 import commands
+import scheduler
 class control():
     def __init__(self,machine):
         self.psven_path = config.psven_path
@@ -27,12 +28,8 @@ class control():
         (status,output) = commands.getstatusoutput(run_cmd)
         if status != 0:
             return (False, output)
-        
         return True,""
 
 if __name__ == "__main__": 
-
     c=control({"trek1":"127.0.0.1"})
-
     c.start()
-    

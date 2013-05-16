@@ -47,7 +47,7 @@ que=sventypes.TaskQueue()
 
 output=outer.Outer(que)
 output.start()
-r=redis.StrictRedis(host=config.host,port=config.redis_port,db=0)
+r=redis.StrictRedis(host=config.supervison,port=config.redis_port,db=0)
 # init worker threads
 ws=[]
 for i in range(0,thd_num):
@@ -61,43 +61,18 @@ count=0
 # 1.get a file from inter
 # 2.if has line in file ,read line from file. init a task with the line. add task to taskqueue ;if not has line,goto 1
 # 3. goto 2 
-def pull_url(r):
-    '''pull the url from redis_server'''
-    while True:
-	    try:
-		    url=r.rpop(config.host)
-
-		    if url is None:
-			    time.sleep(3)
-			    continue
-		    res=r.zadd('urldo',time.mktime(time.localtime()),url)
-		    
-		    #TODO:res is 0
-		    return url
-	    except redis.exceptions.ConnectionError,e:
-		    errormsg=str(e)
-		    print errormsg
-		    continue
-	    except redis.exceptions.ResponseError,e:
-		    errormsg=str(e)+'supervison is not prepared well for the list of%s'%(config.host)
-		    print errormsg
-		    continue
-	    except Exception,e:
-		    errormsg=str(e)
-		    print errormsg
-		    continue
-
 while True:
 	try:
             #url=pull_url(r)
-            url=r.rpop(config.host)
+            url=r.rpop(config.localhost)
+	    
 	    if url is None:
 		    time.sleep(3)
 		    continue
-	    res=r.zadd('urldo',time.mktime(time.localtime()),url)
+	    #res=r.zadd('urldo',time.mktime(time.localtime()),url)
             count+=1
             task=sventypes.Task(count,url.strip())
-            while que.size() >= 1000000:
+            while que.size() >= 100000:
                 time.sleep(1)
 	    que.insert(task)
 	except Exception,e:
@@ -107,4 +82,3 @@ for w in ws:
     w.join()
 que.nomore = 2
 output.join()
-

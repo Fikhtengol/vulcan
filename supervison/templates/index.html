@@ -1,158 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Vulcan,from LiJun</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Le styles -->
-    <link href="../static/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <style type="text/css">
-      body {
-      padding-top: 60px;
-      padding-bottom: 40px;
-      }
-    </style>
-    <link href="../static/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-	<script src="../assets/js/html5shiv.js"></script>
-	<![endif]-->
-
-
-  </head>
-
-  <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="brand" >Vulcan</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active"><a href="/">Home</a></li>
-	      <li class="dropdown">
-		<a href="#" class="dropdown-toggle" data-toggle="dropdown">部署<b class="caret"></b></a>
-		<ul class="dropdown-menu">
-		  <li><a href="#myModal" data-toggle="modal" data-backdrop="true" show="true">部署新机器</a></li>			</ul>
-	      </li>
-	      <li class="dropdown">
-		<a href="#" class="dropdown-toggle" data-toggle="dropdown">监测<b class="caret"></b></a>
-		<ul class="dropdown-menu">
-		  <li><a href="/machinelist">机器列表</a></li>
-		  <li><a href="#">配置规则</a></li>
-		</ul>
-	      </li>
-
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">查看 <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="nav-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-              <li><a href="/machine.html">About me</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
+$:render.front()
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="hero-unit">
+  <div id="myCarousel" class="carousel">
+    <!-- Carousel items -->
+    <div class="carousel-inner">
+      <div class="active item"><h1>Welcome to  Vulcan</h1><p>By LiJun</p></div>
+      <div class="item"> <p><h3>it is a distributed fetcher to crawler urls from web which given by log.</br>You can configure a group of  machines to do this job.<h3></p></div>
+      <div class="item"><p><h3>Vulcan是一个分布式的网页爬取器。它可以从指定的日志中读取url，并从那儿开始获取url所对应的内容。您可以从这里开始配置这个工作集群。</h3></div>
     </div>
+    <!-- Carousel nav -->
 
-    <div class="container">
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+  </div>
+  <p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+</div>
 
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
-	<div id="myCarousel" class="carousel">
-	  <!-- Carousel items -->
-	  <div class="carousel-inner">
-	    <div class="active item"><h1>Welcome to  Vulcan</h1><p>By LiJun</p></div>
-	    <div class="item"> <p><h3>it is a distributed fetcher to crawler urls from web which given by log.</br>You can configure a group of  machines to do this job.<h3></p></div>
-	    <div class="item"><p><h3>Vulcan是一个分布式的网页爬取器。它可以从指定的日志中读取url，并从那儿开始获取url所对应的内容。您可以从这里开始配置这个工作集群。</h3></div>
-	  </div>
-	  <!-- Carousel nav -->
+<!-- Example row of columns -->
+<div class="row">
+  <div class="span4">
+    <h2>集群部署</h2>
+    <p>Deply a machine as a member of the working group. play as a  fetcher. You can control it to start ,pause or delete it</br>配置工作集群。部署节点进行工作。并扮演抓取者的角色。在这里控制其开始，暂停，或者删除工作节点。 
+    </p>
+    <p><a class="btn" href="#">View details &raquo;</a></p>
+  </div>
+  <div class="span4">
+    <h2>监测</h2>
+    <p>watch how the working group runing.and show the heath of them.<br/>观察集群的工作情况</br>查看每个工作节点的负载。</p>
+    <p><a class="btn" href="#">View details &raquo;</a></p>
+  </div>
+  <div class="span4">
+    <h2>展示</h2>
+    <p>to Search the resluts of the vulcan have been down here. you can get some detail of the url's content here</br>查看工作集群所采集到的内容</br>搜索url所对应content</p>
+    <p><a class="btn" href="#">View details &raquo;</a></p>
+  </div>
+</div>
 
-	  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-	</div>
-        <p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+<hr>
+
+<div id="myModal" class="modal hide fade">
+  <div class="modal-header">
+    <a class="close" data-dismiss="modal">×</a>
+    <a data-toggle="tooltip" title="添加新的机器作为fetcher工作节点，将其ip地址以及所对应的主机名称填写在下面"> <h2>Deploy new</h2></a>
+  </div>
+  <div class="modal-body">
+    <form>
+      <div >
+	<label>host</label>
+	<input id="host" type="text" class="input-xlarge" placeholder="host">
+	<i id="right1" ></i><a class="error-msg1"></a>
+	<p class="help-block1">字母，数字，汉字皆可</p>
       </div>
-
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="span4">
-          <h2>集群部署</h2>
-          <p>Deply a machine as a member of the working group. play as a  fetcher. You can control it to start ,pause or delete it</br>配置工作集群。部署节点进行工作。并扮演抓取者的角色。在这里控制其开始，暂停，或者删除工作节点。 
-	  </p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div>
-        <div class="span4">
-          <h2>监测</h2>
-          <p>watch how the working group runing.and show the heath of them.<br/>观察集群的工作情况</br>查看每个工作节点的负载。</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-	</div>
-        <div class="span4">
-          <h2>展示</h2>
-          <p>to Search the resluts of the vulcan have been down here. you can get some detail of the url's content here</br>查看工作集群所采集到的内容</br>搜索url所对应content</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div>
-      </div>
-
-      <hr>
-      
-      <div id="myModal" class="modal hide fade">
-        <div class="modal-header">
-          <a class="close" data-dismiss="modal">×</a>
-          <a data-toggle="tooltip" title="添加新的机器作为fetcher工作节点，将其ip地址以及所对应的主机名称填写在下面"> <h2>Deploy new</h2></a>
-        </div>
-        <div class="modal-body">
-	  <form>
-	    <div >
-		<label>host</label>
-		<input id="host" type="text" class="input-xlarge" placeholder="host">
-		<i id="right1" ></i><a class="error-msg1"></a>
-		<p class="help-block1">字母，数字，汉字皆可</p>
-
-	    </div>
-
-	    <div>
-
-		<label >ip&nbsp;&nbsp;</label>
-		<input id="ip1" type="text"  class="input-small" placeholder="0~255">
-		<input id="ip2" type="text"  class="input-small" placeholder="0~255"> 
-		<input id="ip3" type="text"  class="input-small" placeholder="0~255">
-		<input id="ip4" type="text"  class="input-small" placeholder="0~255">	
-		<i id="right2" ></i><a class="error-msg2"></a></input>
-		<p class="help-block2">0~255以内的数字</p>
-	    </div> 
-	  </form>
-	  <div class="progress progress-striped">
-	    <div class="bar"
-		 style="width: 85%;"></div>
-	  </div>
-	  <div><p class="deploy-msg"></p></div>
-        </div>
-	
-        <div class="modal-footer">
-          <button class="btn btn-danger" data-dismiss="modal"><i class="icon-off icon-white" ></i>关闭</button>
-          <button id="id_machine_get"  disabled="disabled" class="  btn btn-inverse" ><i id="icon_button" class="icon-arrow-right icon-white"></i>继续</button>
-        </div>
-      </div>
-
-      <footer>
-        <p>&copy; lijunchina@foxmail.com 2013</p>
-      </footer>
-    </div> <!-- /container -->
-    <!-- Le javascript
-	 ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../static/js/jquery.js"></script>
-    <script src="../static/bootstrap/js/bootstrap.js"></script>
-    <script type="text/javascript" src="../static/js/local.js"></script>
-  </body>
-</html>
+      <div>
+	<label >ip&nbsp;&nbsp;</label>
+	<input id="ip1" type="text"  class="input-small" placeholder="0~255">
+	<input id="ip2" type="text"  class="input-small" placeholder="0~255"> 
+	<input id="ip3" type="text"  class="input-small" placeholder="0~255">
+	<input id="ip4" type="text"  class="input-small" placeholder="0~255">	
+	<i id="right2" ></i><a class="error-msg2"></a></input>
+	<p class="help-block2">0~255以内的数字</p>
+      </div> 
+    </form>
+    <div class="progress progress-striped">
+      <div class="bar" style="width: 85%;"></div>
+    </div>
+    <div><p class="deploy-msg"></p></div>
+  </div>
+  
+  <div class="modal-footer">
+    <button class="btn btn-danger" data-dismiss="modal"><i class="icon-off icon-white" ></i>关闭</button>
+    <button id="id_machine_get"  disabled="disabled" class="  btn btn-inverse" ><i id="icon_button" class="icon-arrow-right icon-white"></i>继续</button>
+  </div>
+</div>
+$:render.foot()

@@ -3,7 +3,9 @@ import redis
 import inputer
 import time
 import os
+import pickle as p
 from hash_ring import HashRing
+
 class Scheduler():
     def __init__(self,):
         '''
@@ -12,11 +14,29 @@ class Scheduler():
         '''
         self.rs=redis.StrictRedis(host=config.redis_host, port=config.redis_port,db=0)
         self.inter=inputer.Inputer(config.input_home)
-        self.inter.start()
         #TODO:add the weight for hashring() init
-        self.hashring=HashRing(nodes=config.workers,replicas=100
-)
+        self.genworkers(callback=self.get_nodes4file)
+        self.hashring=HashRing(nodes=self.workers,replicas=100)
         self.nodes={}
+    def add_worker(self,ip):
+        self.hashring.add_node(ip)
+        
+    def genworkers(self,callback):
+        self.workers=callback()
+
+    def get_node4db(self,):
+        pass
+
+    def get_nodes4file(self,):
+        workers=[]
+        try:
+            f=open('.mfile','rb')
+            res=p.load(f)
+            workers=res.values()
+        except Exception:
+            workers=[]
+        return workers
+
     def pushurl(self,url):
         #TODO:rs push failed!
         node=self.hashring.get_node(url)
@@ -30,6 +50,7 @@ class Scheduler():
             print node+":"+str(self.nodes[node])
 
     def run(self,):
+        self.inter.start()
         while self.inter.running:
             ifile = self.inter.get_task()
 
@@ -55,7 +76,7 @@ class Scheduler():
                 #TODO:write to log
                 print str(e)
 		continue
-            
+
 if __name__=="__main__":
-    s=Scheduler()
-    s.run()
+    sl=Scheduler()
+    sl.run()

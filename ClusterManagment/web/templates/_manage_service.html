@@ -1,0 +1,87 @@
+$def with (args = None )
+<div id="navbar-example" class="navbar navbar-static">
+              <div class="navbar-inner">
+                <div class="container" style="width: auto;">
+                    <a class="brand" >Service Group:
+                        $if args["group"] != None :
+                            $args["group"]["val"].name
+                        $else :
+                            All Services
+                    </a>
+                  <ul class="nav pull-right">
+                    <li id="fat-menu" class="dropdown">
+                      <a href="#" id="drop3" role="button" class="dropdown-toggle" data-toggle="dropdown">Choose serverGroup<b class="caret"></b></a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="drop3">
+                        $for group in args["group_list"] : 
+                            <li><a tabindex="-1"  href="/manage_service?group_id=$group.id">$group.name</a></li>
+                        <li class="divider"></li>
+                        <li><a tabindex="-1" href="/manage_service?group_id=0">All</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+</div>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Service Name</th>
+            <th>Service Describe</th>
+            <th>Containing serverGroups</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+$ current_group_id = 0
+$if args["group"]!= None :
+    $ current_group_id = args["group"]["val"].id
+$ style = ""
+$if current_group_id == None or current_group_id == 0 :
+    $ style = "style='display:none'"
+$ services_list_length = len(args["services_list"])
+$for i in range(services_list_length) :
+    $ service = args["services_list"][i]
+    <tr>
+        <td>${i+1}</td>
+        <td>$service.name</td>
+        <td>$service.desc</td>
+        <td>
+            $for service_group in service.groups :
+	    <a href="/manage_server?group_id=$service_group.id">
+            $service_group.name ,
+	  </a>
+        </td>
+        <td>
+	  <div class="btn-toolbar" style="margin: 0;">
+                <a href="/deleteservice?category=service&service_id=$service.id&current_group_id=$current_group_id" class="btn">
+                    Delete
+                </a>
+               <a href="/removeservice?category=service&service_id=$service.id&current_group_id=$current_group_id" class="btn" $:style>
+                    Remove
+                </a>
+
+	    <div class="btn-group">
+              <button class="btn btn-warning dropdown-toggle" data-toggle="dropdown">Deploy task <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+		$for task in args["task_list"]
+                <li><a href="/deploytask2group?task=$task['task']['id']">$task["task"]["name"]</a></li>
+              </ul>
+	    </div>
+	    <div class="btn-group">
+              <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+		Add to Group...
+		<span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+		$for group in args["group_list"] :
+		<li>
+                  <a href="/addservice2group?category=service&service_id=$service.id&group_id=$group.id&current_group_id=$current_group_id">$group.name</a>
+		</li>
+              </ul>
+	    </div>
+	  </div>
+        </td>
+    </tr>    
+    </tbody>
+</table>

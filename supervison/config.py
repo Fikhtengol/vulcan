@@ -16,11 +16,11 @@ if not os.path.exists(log_dir):
 
 logger = log4py.get_mztimedrotating_logger(log_dir, category, machineid, zone, project, module, 'MyLogger', when='d')
 
-workers={'192.168.53.156',
+workers=['192.168.53.156',
          '192.168.53.157',
          '192.168.53.158',
          '127.0.0.1',
-        }
+        ]
 redis_host='localhost'
 redis_port=6379
 input_home=os.path.expanduser('~/workspaces/vulcan/supervison/loginput/')

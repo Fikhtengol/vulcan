@@ -1,26 +1,37 @@
+
+import os
 import web
 from view import render
 import pickle as p
 import control
 import listen
 
+
+from ClusterManagement.web  import  controller
+
 urls=(
     '/','index',
     '/machinelist','machinelist',
     '/checkmachine','checkmachine',
     '/deploynew','deploynew',
-    '/machinelist','machinelist',
+    '/machine_list','machine_list',
     '/start','start',
     '/machine_info','machine_info',
     '/init_info','init_info',
     '/get_info','get_info',
+    '/ClusterManagment',controller.clusterapp,
+
 )
 class index:
     def GET(self,):
         return render.index()
-class machinelist:
+
+
+
+        
+class machine_list:
     def GET(self,):
-        return render.machinelist()
+        return render.machine_list()
 class checkmachine:
     
     def GET(self,):
@@ -80,7 +91,7 @@ class start:
             
 
         
-class machinelist:
+class machine_list:
     def GET(self,):
         mdict={}
         try :
@@ -91,8 +102,7 @@ class machinelist:
             print e
             open('.mfile',"wb")
         
-        return render.machinelist(mdict)
-        
+        return render.machine_list(mdict)
 class machine_info:
     def GET(self,):
         ip=web.input()['ip']

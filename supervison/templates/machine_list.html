@@ -1,0 +1,22 @@
+$def with(mdict,)
+$:render.front()
+<div class="container" >
+  <div class="row-fluid"  >
+    <table class="table table-striped">
+      <p><h1>集群列表</h1></p>
+      <tr>
+	<th>host</th><th>ip</th><th>control</th>
+      </tr>
+      $ id=0
+      $for m in mdict.keys():
+      $   id=id+1 
+      <tr>
+	<td ><a href="machine_info?ip=$mdict[m]">$m<a></td>
+	<td >$mdict[m]</td>
+	<td><button id="$id" class="btn btn-success" onclick="send(this)"><i class="icon-play"></i>开始</button>
+	  <button id=$"id" class="btn btn-danger" ><i class="icon-remove"></i>删除</button></td>
+      </tr>
+    </table>
+  </div>
+</div>
+$:render.foot()

@@ -1,0 +1,21 @@
+$def with(server)
+<div class="container" >
+  <div class="row-fluid">
+    <table class="table table-striped">
+      <p><h1>Server List</h1></p>
+      <tr>
+	<th>host</th>
+	<th>ip</th>
+	<th></th>
+      </tr>
+      $id=0
+      $for m in mdict.keys():
+      $   id=id+1 
+      <tr>
+	<td ><a href="machine_info?ip=$mdict[m]">$m<a></td>
+	<td >$mdict[m]</td>
+      </tr>
+    </table>
+  </div>
+</div>
+

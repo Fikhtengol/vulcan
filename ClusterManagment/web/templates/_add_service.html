@@ -1,0 +1,22 @@
+$def with (args = None)
+$:args["result"]
+<form class="bs-docs-example form-horizontal" method="post" action="/add_service">
+            <legend>Create Service</legend>
+            <div class="control-group">
+              <label class="control-label" for="service_name">Service name</label>
+              <div class="controls">
+                  <input type="text" id="service_name" name="service_name">
+              </div>
+            </div>
+             <div class="control-group">
+              <label class="control-label" for="service_desc">Service Desctiption</label>
+              <div class="controls">
+                  <textarea id="service_desc" style="width:400px;height:50px" name="service_desc"></textarea>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="controls">
+                <button type="submit" class="btn btn-primary">Create</button>
+              </div>
+            </div>
+</form>

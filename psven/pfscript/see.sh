@@ -1,4 +1,3 @@
-
 LOG=$1
 
 URLNUM=$(cat $LOG|  wc -l)

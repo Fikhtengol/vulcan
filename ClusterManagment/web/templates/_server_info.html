@@ -1,0 +1,21 @@
+$def with(ip,)
+<div id="navbar-example" class="navbar navbar-static">
+              <div class="navbar-inner">
+                <div class="container" style="width: auto;">
+                    <a class="brand" >Server:$ip
+                </div>
+              </div>
+</div>
+
+<script src="/static/js/highstock.js"></script>
+<script src="/static/js/exporting.js"></script>
+<script src="/static/js/local.js"></script>
+<div class="container span10">
+      <div id="container1" style="height: 500px; min-width: 500px"></div>
+      <div id="container2" style="height: 500px; min-width: 500px"></div>
+      <div id="container3" style="height: 500px; min-width: 500px"></div>
+      <hr>
+      <script type="text/javascript">
+	show("$ip");
+      </script>
+</div>

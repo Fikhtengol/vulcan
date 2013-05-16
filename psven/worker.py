@@ -93,9 +93,6 @@ class worker(threading.Thread):
 					htmllen=len(c.task.html)+1
 					c.task.firstline +="\t"+c.getinfo(pycurl.EFFECTIVE_URL)+"\t"+str(htmllen)
 					self.queue.saveme(c.task.firstline+"\n"+c.task.html+"\n")
-					#fp = open(sventypes.Task.destdir+"/"+str(c.task.id)+".txt", "wb")
-					#fp.write(c.task.html)
-					#fp.close()
 				else:
 					LOG.info("BadResponse: "+c.start_time+"\t"+nowtime+"\t"+str(c.task.id)+"\t"+"httpcode="+str(c.getinfo(pycurl.HTTP_CODE))+"\t"+c.task.url)
 				self.m.remove_handle(c)

@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+        deploy_cmd = '''ssh -o StrictHostKeyChecking=no %s@%s "mkdir -p %s" ; rsync -avz %s/ %s@%s:%s''' %(self.remote_user, self.remote_machineip, self.remote_path, self.psven_path, self.remote_user, self.remote_machineip, self.remote_path)
+        try:
+            (status,output) = commands.getstatusoutput(deploy_cmd)
+            if status != 0:
+                return (False, output)
+        except Exception,e:
+            print e
+            return False,e

@@ -1,0 +1,41 @@
+$def with (args=None)
+$:args["result"]
+
+<div id="navbar-example" class="navbar navbar-static">
+  <div class="navbar-inner">
+    <div class="container" style="width: auto;">
+      <a class="brand" >Server Groups:All
+      </a>
+    </div>
+  </div>
+</div>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Group Name</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+$ i=0
+$if args!=None:
+  $for group in args["group_list"]:
+    $ i=i+1
+    <tr>
+      <td>$i</td>
+      <td><a href="/manage_server?group_id=$group.id">$group.name </a></td>
+      <td>
+        <div class="btn-group">
+	  <td>
+	  <form method="post" action="delete_serverGroup" style="margin:0px 0px 0px 0px">
+	    <input type="hidden" name="serverGroup_id" value=$group.id/>
+	    <button class="btn btn-primary">Delete Group</button>
+	  </form>
+	  <td>
+        </div>
+      </td>
+    </tr>    
+  </tbody>
+</table>

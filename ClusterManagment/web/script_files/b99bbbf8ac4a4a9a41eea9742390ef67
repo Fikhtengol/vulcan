@@ -1,0 +1,1 @@
+cd ~/public/vulcan/psven && python psven.py svenout >/dev/null 2>&1  && echo "sucess"  &

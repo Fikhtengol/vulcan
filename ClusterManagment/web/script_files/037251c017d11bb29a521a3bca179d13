@@ -1,0 +1,1 @@
+rsync -avz lijun@localhost:/home/lijun/workspaces/vulcan/psven/ /home/lijun/public/vulcan/psven

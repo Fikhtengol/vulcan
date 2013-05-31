@@ -1,3 +1,4 @@
+#encoding=utf-8
 import re
 from urllib import urlopen
 import sys
@@ -8,6 +9,7 @@ class Filter():
 
     def take_subject(self,html):
         def remove_tag(html):
+            #(?is) i忽略大小写，s匹配全部字符包括特殊字符 .*?不贪婪限定符,第一次遇到>就返回
             html = re.sub("(?is)<!DOCTYPE.*?>", "",html)
             html = re.sub("(?is)<!--.*?-->", "",html)
             html = re.sub("(?is)<script.*?>.*?</script>", "",html)
@@ -15,6 +17,14 @@ class Filter():
             html = re.sub("&.{2,5};|&#.{2,5};", "",html)
             html = re.sub("(?is)<.*?>", "",html)
             return html
+
+        def take_title():
+            titles=re.findall('(?is)<h1.*?>(.*?)</h1>',html)
+            if titles:
+                title="".join([title for title in titles if title.find("http")==-1])
+            else:
+                title=""
+            return title
 
         def get_start(start):
             for i in range(start,len(blocks)):
@@ -34,11 +44,11 @@ class Filter():
                 if len(lines[i])<5:continue
                 content[0]+='\n'
 
+        title=take_title()
         content=[""]
         html=remove_tag(html)
         lines=html.split('\n')
         blocks=[]
-
         lines_len=len(lines)
         blocks.append(0)
         for i in range(self.blocksWidth):
@@ -52,19 +62,37 @@ class Filter():
         while True:
             start=get_start(end)
             if start==None:
-                return content[0]
+                return title,content[0]
             end=get_end(start)
             get_content(start,end)
+    
+    def pre_process(self,path):
+        up=urlopen(path)
+        info=up.info()
+        html=up.read()
+        charset=info.getparam('charset')
+        if not charset:
+            m=re.search('(?is)<meta.*?charset=(.*?)" />',html)
+            if m:charset=m.group(1)
+            else:
+                print "default charset"
+                charset='gb2312'
+        html=html.decode(charset,'ignore')
+        html.encode('utf-8','ignore')
+        return html
 
+    def process(self,path):
+        html=self.pre_process(path)
+        subject=self.take_subject(html)
+        return subject
+    
 if __name__=="__main__" :
     if len(sys.argv)==2 :
         path=sys.argv[1]
-        cmd="open"    
-        if path.startswith("http://"):cmd="urlopen"
         try:
-            html=eval(cmd)(path).read()
-            subject=Filter().take_subject(html)
-            print subject
+            fr=Filter()
+            subject=fr.process(path)
+            print '\n'.join(subject)
             sys.exit(0)
         except Exception,e:
             print e

@@ -11,6 +11,7 @@ urls = (
         '/addscript2group' , 'add2group',
         '/addserver2group' , 'add2group',
         '/addservice2group','add2group',
+         '/addtask2service','addtask2service',
         '/deletescript' , 'delete',
         '/deleteserver' , 'delete',
         '/deleteservice' , 'delete',
@@ -21,7 +22,7 @@ urls = (
         '/init_info','init_info',
         '/','about',
         '/(.*)','index',
-        
+    
 )
 class init_info:
     def GET(self,):
@@ -103,8 +104,8 @@ class index :
                 group_list['val'] = []
             if server_list['val'] == None :
                 server_list['val'] = []
-
             return foo({"servers_list" : server_list['val'] , "group_list" : group_list['val'] , "group" : current_group , "result" : get_result_alert(i['res'])})
+
         elif template_name=='manage_serverGroup':
             i=web.input(res='None')
             server_group_list=helper.get_server_group_list()
@@ -169,6 +170,8 @@ class index :
                 group_list['val'] = []
             if service_list['val'] == None :
                 service_list['val'] = []
+            if tasks['val']==None:
+                tasks['val']=[]
             return foo({"services_list" : service_list['val'] , "task_list":tasks['val'],"group_list" : group_list['val'] , "group" : current_group , "result" : get_result_alert(i['res'])})
 
         elif template_name == 'edit_script' :
@@ -202,6 +205,7 @@ class index :
             return foo(args)
 
         elif template_name == 'manage_task' :
+            i =web.input(res=None,service_id=None)
             args = {}
             server_group_list = helper.get_server_group_list()
             script_group_list = helper.get_script_group_list()
@@ -213,8 +217,10 @@ class index :
                 script_group_list = []
             else:
                 script_group_list = script_group_list["val"]
-            
-            task_list_res = helper.get_all_tasks()
+            if i["service_id"]!=None:
+                task_list_res=helper.get_tasks_by_serviceid(i["service_id"])
+            else:
+                task_list_res = helper.get_all_tasks()
             if task_list_res["status"] == -1 or task_list_res["val"] == None :
                 task_list = []
             else :
@@ -223,8 +229,7 @@ class index :
             args["script_group_list"] = script_group_list
             args["task_list"] = task_list
             args["result"] = ""
-            i =web.input(res='None')
-            if i['res'] != None :
+            if i['res'] != None:
                 if i['res'] == 'notstart' :
                     args["result"] = get_result_alert2('error' , 'Waring' , 'Task has not started!')
                 elif i['res'] == 'runerror' :
@@ -240,7 +245,6 @@ class index :
                 elif i['res'] == 'deletetaskerror' :
                     args["result"] = get_result_alert2('error' , 'Error' , 'Fail to delete task , please check!')
             return foo(args)
-
         else :
             return "404"
 
@@ -318,6 +322,7 @@ class index :
         ''' 所有的表单处理都，在一个post方法里。通过传递form里的action所对应的值，来确定是哪个表单，和get一样，post方法同样在参数里             捕捉剩余的url。
         '''
         post_data = web.input()
+        
         if action_name == 'add_server' :
             add_server_res = helper.create_server(str(post_data['user_name']) , str(post_data['user_password']) , str(post_data['host_address']) , str(post_data['host_port']) , str(post_data['script_path']))
             if add_server_res['status'] == 0 :
@@ -382,11 +387,10 @@ class index :
             task_id = post_data["task_id"]
             request_res = helper.do_request(task_id)
             print request_res
-            request_res['val'].values()[0]['content']=request_res['val'].values()[0]['content'].replace('\r\n','<br/>')
-
-
             if request_res["status"] == -1 :
                 raise web.seeother('manage_task?res=notstart')
+            for i in request_res['val'].values():
+                i['content']=request_res['val'].values()[0]['content'].replace('\r\n','<br/>')
             return self.do_with_view_status( task_id , request_res["val"]) 
         elif action_name == "run_task" :
             task_id = post_data["task_id"]
@@ -403,7 +407,7 @@ class index :
                 raise web.seeother("manage_task?res=addtasksuccess")
             else :
                 raise web.seeother("manage_task?res=addtaskerror")
-        elif action_name == "delete_task" :
+        elif action_name == "delete_task":
             delete_res = helper.delete_task(post_data["task_id"])
             if delete_res["status"] == 0:
                 raise web.seeother("manage_task?res=deletetasksuccess")
@@ -423,11 +427,7 @@ class index :
             else :
                 raise web.seeother("manage_scriptGroup?res=%s"%(delete_res['val']))
 
-
-
-                
             
- 
 def redirect2home(flag , category , group_id = 0) :
     if category == 'script':
         if flag == 0 :
@@ -451,7 +451,6 @@ def redirect2home(flag , category , group_id = 0) :
 
 class add2group :
     def GET(self) :
-
         input_args = web.input()
         category = input_args['category']
         if category == 'script' :
@@ -463,10 +462,13 @@ class add2group :
         elif category=='service':
             res = helper.add_service2group(str(input_args['service_id']) , str(input_args['group_id']))
             return redirect2home(res['status'] , 'service' , str(input_args['current_group_id']))
-            
         else :
             return "404"
-
+class addtask2service:
+    def GET(self,):
+        input_args=web.input()
+        res=helper.add_task2service(str(input_args['task_id']),str(input_args['service_id']))
+        return redirect2home(res['status'] , 'service' , str(input_args['current_group_id']))
 class delete :
     def GET(self) :
         input_args = web.input()
@@ -501,13 +503,9 @@ class remove :
         else :
             return "404"
 
-
-
 class about :
     def GET(self,) :
         return render._home()
-        
-
 
 if __name__ == '__main__' :
     app = web.application(urls,globals())

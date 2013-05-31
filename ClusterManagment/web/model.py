@@ -61,6 +61,11 @@ service_servergroup = Table('service_servergroup' , metadata , \
         Column('service_id' , INTEGER , ForeignKey('service.id') , primary_key = True),\
         Column('serverGroup_id' , INTEGER , ForeignKey('serverGroup.id'),primary_key = True))
 
+service_task = Table('service_task' , metadata , \
+        Column('id' ,INTEGER , primary_key = True),\
+        Column('service_id' , INTEGER , ForeignKey('service.id') , primary_key = True),\
+        Column('task_id' , INTEGER , ForeignKey('task.id'),primary_key = True))
+
 
 
 class Script(Declbase,Base):
@@ -172,7 +177,7 @@ class ServerGroup(Declbase , Base) :
     id = Column(INTEGER , primary_key = True)
     name = Column(NVARCHAR(256))
     servers = relationship('Server' , secondary = server_group , backref = 'serverGroup')
-    services = relationship('Service',secondary=service_servergroup,backref='serverGroup')
+    services = relationship('Service',secondary=service_servergroup,backref='service_task')
     def __getattr__ (self , name ):
         if name == 'server_ids':
             return [server.id for server in self.servers]
@@ -194,7 +199,7 @@ class Task (Declbase , Base) :
     name = Column(NVARCHAR(256))
     script_group_id = Column(INTEGER,ForeignKey('scriptGroup.id'))
     server_group_id = Column(INTEGER,ForeignKey('serverGroup.id'))
-
+    
     def __init__(self , p_script_group_id , p_server_group_id , p_name = "") :
         self.script_group_id = p_script_group_id 
         self.server_group_id = p_server_group_id
@@ -232,10 +237,12 @@ class Service(Declbase,Base):
     name = Column(NVARCHAR(256))
     desc = Column(NVARCHAR(1024))
     groups = relationship('ServerGroup',secondary=service_servergroup,backref='service')
-    
+    tasks  = relationship('Task', secondary = service_task , backref = 'service')
     def __getattr__(self,name):
         if name == 'group.ids':
             return [group.id for group in self.groups]
+        if name =='task.ids':
+            return [task.id for task in self.tasks]
         raise AttributeError , 'AttributeError'
 
     def __init__(self , p_name ,p_desc):

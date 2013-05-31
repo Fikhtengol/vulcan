@@ -391,7 +391,24 @@ def get_task_by_id (task_id) :
         return {"status":-1 , "val":None}
     finally :
         session.close()
+def get_tasks_by_serviceid(service_id):
+    tasks=[]
+    try:
+        session=Session()
+        service=session.query(Service).filter(Service.id==service_id).first()
+        if service==None:
+            return{'status':-1,'val':None}
+        task_ids=[task.id for task in service.tasks]
 
+        for task_id in task_ids:
+            res=get_task_by_id(task_id)
+            if res["status"]==0:
+                tasks.append(res["val"])
+        return {"status":0,"val":tasks}
+    except Exception,msginfo:
+        print msginfo
+        return {"status":-1,"val":None}
+        
 def add_script2group(script_id , group_id):
     '''不需要操作表script_group.而是通过操作操作group对象的scirpt属性。#(也应该可以操作script的group属性);同时更新sorted_arry'''
     try :
@@ -442,6 +459,26 @@ def add_service2group(service_id,group_id):
             group.services.append(service)
             group.save(session)
             return {"status":0 , "val" : None}
+        return {"status":-1 , "val":None}
+    except Exception , msginfo :
+        return {"status":-1 , "val":msginfo}
+    finally :
+        session.close()
+def add_task2service(task_id,service_id):
+    try :
+        session = Session()
+        task = session.query(Task).filter(Task.id == task_id).first()
+        service = session.query(Service).filter(Service.id == service_id).first()
+        if service == None or service == None :
+            return {"status":-1 , "val" : None}
+        if task not in service.tasks:
+            service.tasks.append(task)
+            service.save(session)
+        if task in service.tasks:
+            service.tasks.remove(task)
+            service.save(session)
+        return {"status":0 , "val" : None}
+
         return {"status":-1 , "val":None}
     except Exception , msginfo :
         return {"status":-1 , "val":msginfo}
@@ -712,10 +749,10 @@ def do_request(task_id) :
         result = upload_remotefile.get_request_result(success_array , key_code_list)
         return {"status":0 , "val":result}
     except Exception , msginfo :
-        return {"Status":-1 , "val":None}
+        return {"status":-1 , "val":None}
     finally :
         session.close()
-if __name__ == '__main__' :
+if __name__ == '__main__':
     print do_command(1)
     print do_request(4)
     #create_scriptgroup("myscript")

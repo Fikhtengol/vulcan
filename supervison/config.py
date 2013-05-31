@@ -21,12 +21,12 @@ workers=['192.168.53.156',
          '192.168.53.158',
          '127.0.0.1',
         ]
-redis_host='localhost'
+redis_host='127.0.0.1'
 redis_port=6379
 input_home=os.path.expanduser('~/workspaces/vulcan/supervison/loginput/')
 psven_path=os.path.expanduser('~/workspaces/vulcan/psven')
 remote_path=os.path.expanduser('~/public/vulcan/psven')
-
+db_file=os.path.expanduser('~/workspaces/vulcan/supervison/filedb')
 remote_user="lijun"
 
 if not os.path.exists(psven_path):

@@ -6,14 +6,18 @@ import datetime
 import time
 import threading
 import Queue
-
-timeout_ = 100
+import os
+import sys
+timeout_ = None
 max_work_threads = 10
 def upload_file(file_path_list , remote_user , remote_host ,remote_path , password , remote_port = 22) :
     '''
     Copy a file to remote machine. return 0 if success
     '''
     logger = Logging.getLogger(log_file='upload_remotefile.log')
+    remote_path=os.path.expanduser(remote_path)
+
+        
     try :
         file_path = ' '# multi files
         for path_item in file_path_list :
@@ -29,7 +33,7 @@ def upload_file(file_path_list , remote_user , remote_host ,remote_path , passwo
         logger.info(cmd_text)
         global timeout_
         cmd = pexpect.spawn(cmd_text,timeout=timeout_)
-        expect_res = cmd.expect(['(yes/no)','password',pexpect.EOF,pexpect.TIMEOUT])
+        expect_res = cmd.expect(['(yes/no)','password',pexpect.EOF])
         if expect_res == 0 :
             logger.info('pexpect expects (yes/no)')
             cmd.sendline('yes')
@@ -92,7 +96,8 @@ def do_remotecommand(file_path_list, server_array) :
         if upload_res == 0 :
             try:
                 s = pxssh.pxssh()
-                is_login = s.login(server = machine['remote_host'], username = machine['remote_user'], password = machine['password'] , login_timeout = 100)
+                print s
+                is_login = s.login(server = machine['remote_host'], username = machine['remote_user'], password = machine['password'],login_timeout = 100)
                 if is_login == False :
                     raise Exception , 'Permission denied'
                 else: 
@@ -120,6 +125,7 @@ def do_remotecommand(file_path_list, server_array) :
                 s.logout()
                 result.put([s.exitstatus,key_code_list,log_code,machine])#success
             except Exception, e: 
+                print "tuck"
                 print e
                 result.put([-1,[],'',machine])#fail
     
@@ -247,3 +253,95 @@ def get_request_result( success_array , key_code_list) :
                final_result[machine['id']]["status"] = -1
         final_result[machine['id']]["content"] = content
     return final_result
+
+
+def do_remotecommand(file_path_list, server_array) :
+    '''
+    copy a script file list to server_array and execute the script files at remote machines
+    Each file has a unique key_code.
+    The standard output and standard error output of all files are written to a log file named 'log_code.log'
+    return a Queue object which contains [exitstatus, key_code_list, log_code, machine]
+    '''   
+    '''
+    if not file_path_list or type(file_path_list) is not list \
+            or not server_array or type(server_array) is not list :
+                return None
+    '''
+    file_list = []
+    key_code_list = []
+    log_code = hashlib.md5(str(datetime.datetime.now())).hexdigest()
+    log_code = log_code[len(log_code)/2:]
+    log_name = log_code + '.log'
+
+    for file_path in file_path_list :
+        if file_path.rfind('/') != 0:
+            file_name = file_path[file_path.rfind('/')+1:]
+        else : 
+            file_name = file_path
+        file_code = hashlib.md5(str(datetime.datetime.now())).hexdigest()
+        file_code = file_code[len(file_code)/2:]
+        newfile_name = log_code + file_code + file_name
+        file_list.append((file_name , newfile_name))
+        key_code_list.append(log_code + file_code)
+    result = Queue.Queue()
+    def work(machine):
+        upload_res =  upload_file(file_path_list,machine['remote_user'], machine['remote_host'], machine['remote_path'],\
+                machine['password'], machine.get('remote_port',22))
+        print upload_res
+        if upload_res == 0 :
+            try:
+                s = pxssh.pxssh()
+                print s
+                is_login = s.login(server = machine['remote_host'], username = machine['remote_user'], password = machine['password'],login_timeout = 100)
+                if is_login == False :
+                    raise Exception , 'Permission denied'
+                else: 
+                    print 'login success'
+
+                if machine['remote_path'].endswith('/') == False:
+                    machine['remote_path'] += '/'
+                s.sendline('cd '+ machine['remote_path'])
+                s.prompt()
+                print s.before
+                
+                for file_name , newfile_name in file_list :
+                    s.sendline('mv '+ file_name  + ' ' + newfile_name)
+                    s.prompt()
+                    s.sendline('chmod u+x ' + newfile_name)
+                    s.prompt()
+                s.sendline('cd ~')
+                s.prompt()
+                cmd_text = ''
+                for file_name , newfile_name in file_list :
+                    newfile_name_ = machine['remote_path'] + newfile_name
+                    log_name_ = machine['remote_path'] + log_name
+                    cmd_text += newfile_name_ + ' >> ' + log_name_ + ' 2>&1 && '
+                cmd_text += 'echo ' + log_code + '#' +' >> ' + log_name_ + ' &'
+                print cmd_text
+                s.sendline(cmd_text)
+                s.prompt()
+                s.logout()
+                result.put([s.exitstatus,key_code_list,log_code,machine])#success
+            except Exception, e: 
+                print "tuck"
+                print e
+                result.put([-1,[],'',machine])#fail
+    
+    machine_queue = Queue.Queue()
+    for machine in server_array :
+        machine_queue.put(machine)
+    def minithreadworker (queue) :
+        try :
+            while queue.empty() == False :
+                work(queue.get(True , 10))
+        except Queue.Empty :
+            pass
+    thread_num = min( max_work_threads , machine_queue.qsize() )
+    work_threads = []
+    for i in range(thread_num) :
+        new_thread = threading.Thread(target = minithreadworker , args = [machine_queue ,])
+        work_threads.append(new_thread)
+        new_thread.start()
+    for thread in work_threads :
+        thread.join() #just wait
+    return result

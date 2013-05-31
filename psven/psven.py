@@ -43,8 +43,6 @@ if os.path.exists("proxy"):
 			myproxy.add(line.strip())
 
 que=sventypes.TaskQueue()
-
-
 output=outer.Outer(que)
 output.start()
 r=redis.StrictRedis(host=config.supervison,port=config.redis_port,db=0)

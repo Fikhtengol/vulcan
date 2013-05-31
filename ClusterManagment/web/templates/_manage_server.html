@@ -57,34 +57,35 @@ $for i in range(servers_list_length) :
             $server_group.name ,
         </td>
         <td>
+	  <div class="btn-toolbar" style="margin: 0;">
+            <a href="/edit_server?category=server&server_id=$server.id&current_group_id=$current_group_id" class="btn">
+              Edit
+            </a>
+            <a href="/deleteserver?category=server&server_id=$server.id&current_group_id=$current_group_id" class="btn">
+              Delete
+            </a>
+	    <a href="/removeserver?category=server&server_id=$server.id&current_group_id=$current_group_id" class="btn" $:style>
+              Remove
+	    </a>
+            <button class="btn">
+	      <a href="server_info?ip=$server.host_address">INFO</a>
+            </button>
             <div class="btn-group">
-                <button class="btn btn-primary ">
-		   <a href="server_info?ip=$server.host_address">INFO</a>
-                </button>
-
-                <a href="/edit_server?category=server&server_id=$server.id&current_group_id=$current_group_id" class="btn">
-                   Edit 
-                </a>
-                <a href="/deleteserver?category=server&server_id=$server.id&current_group_id=$current_group_id" class="btn">
-                    Delete
-                </a>
-               <a href="/removeserver?category=server&server_id=$server.id&current_group_id=$current_group_id" class="btn" $:style>
-                    Remove
-                </a>
-
-                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+              <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
                    Add to Group...
                     <span class="caret"></span>
-                </button>
+              </button>
                 <ul class="dropdown-menu">
                     $for group in args["group_list"] :
                     <li>
                         <a href="/addserver2group?category=server&server_id=$server.id&group_id=$group.id&current_group_id=$current_group_id">$group.name</a>
                     </li>
                 </ul>
-            </div>
+	    </div>		
+
+
+	  </div>
         </td>
- 
     </tr>    
     </tbody>
 </table>

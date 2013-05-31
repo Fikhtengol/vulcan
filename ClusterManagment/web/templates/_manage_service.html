@@ -51,26 +51,16 @@ $for i in range(services_list_length) :
 	    <a href="/manage_server?group_id=$service_group.id">
             $service_group.name ,
 	  </a>
-        </td>
+	</td>
+
+
+
         <td>
 	  <div class="btn-toolbar" style="margin: 0;">
-                <a href="/deleteservice?category=service&service_id=$service.id&current_group_id=$current_group_id" class="btn">
-                    Delete
-                </a>
-               <a href="/removeservice?category=service&service_id=$service.id&current_group_id=$current_group_id" class="btn" $:style>
-                    Remove
-                </a>
 
 	    <div class="btn-group">
-              <button class="btn btn-warning dropdown-toggle" data-toggle="dropdown">Deploy task <span class="caret"></span></button>
-              <ul class="dropdown-menu">
-		$for task in args["task_list"]
-                <li><a href="/deploytask2group?task=$task['task']['id']">$task["task"]["name"]</a></li>
-              </ul>
-	    </div>
-	    <div class="btn-group">
               <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-		Add to Group...
+		Add to Group
 		<span class="caret"></span>
               </button>
               <ul class="dropdown-menu">
@@ -80,6 +70,31 @@ $for i in range(services_list_length) :
 		</li>
               </ul>
 	    </div>
+
+	    <div class="btn-group">
+              <button class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+		Deploy task 
+		<span class="caret"></span>
+	      </button>
+              <ul class="dropdown-menu">
+		$for task in args["task_list"]:
+                <li>
+		  <a href="/addtask2service?task_id=$task['task']['id']&service_id=$service.id&current_group_id=$current_group_id">$task["task"]["name"]</a>
+		</li>
+              </ul>
+	    </div>
+
+            <a href="/manage_task?service_id=$service.id" class="btn" >
+              Tasks
+            </a>
+
+            <a href="/deleteservice?category=service&service_id=$service.id&current_group_id=$current_group_id" class="btn">
+	      Delete
+            </a>
+            <a href="/removeservice?category=service&service_id=$service.id&current_group_id=$current_group_id" class="btn" $:style>
+              Remove
+            </a>
+
 	  </div>
         </td>
     </tr>    

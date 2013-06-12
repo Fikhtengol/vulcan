@@ -825,3 +825,977 @@ delayafterterminate: 0.1
 2013-05-30@16:30:46	25745|140552224286464	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
 2013-05-30@16:37:25	25745|140552224286464	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/817bca8b0a28e9351e95bbd436ca5177  lijun@127.0.0.1:/home/lijun/public/test/test0
 2013-05-30@16:37:25	25745|140552224286464	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:07:53	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/2d9447f2bb8546ea8297015e5226f157  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@17:07:53	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/2d9447f2bb8546ea8297015e5226f157  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@17:07:53	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/2d9447f2bb8546ea8297015e5226f157  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@17:07:53	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/2d9447f2bb8546ea8297015e5226f157  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@17:07:56	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:07:56	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:07:58	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:07:58	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:21:21	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@17:21:21	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@17:21:21	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@17:21:21	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@17:21:24	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:21:24	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:21:27	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:21:27	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:22:35	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@17:22:35	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@17:22:35	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@17:22:35	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@17:22:35	2177|139687929227008	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@17:22:35	2177|139687929227008	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@17:22:35	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:22:35	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:22:38	2177|139687929227008	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:22:38	2177|139687929227008	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:22:40	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:22:40	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:23:16	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@17:23:16	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@17:23:16	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@17:23:16	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@17:23:16	2177|139687929227008	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@17:23:16	2177|139687929227008	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@17:23:16	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:23:16	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:23:19	2177|139687929227008	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:23:19	2177|139687929227008	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:23:22	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:23:22	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:23:54	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@17:23:54	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@17:23:54	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@17:23:54	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@17:23:54	2177|139687929227008	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@17:23:54	2177|139687929227008	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@17:23:54	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:23:54	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:23:57	2177|139687929227008	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:23:57	2177|139687929227008	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:23:59	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:23:59	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:25:39	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@17:25:39	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@17:25:39	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:25:39	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:25:53	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/f57ed35db15b6eda40eb69a531c9a9bf  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@17:25:53	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/f57ed35db15b6eda40eb69a531c9a9bf  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@17:25:53	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/f57ed35db15b6eda40eb69a531c9a9bf  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@17:25:53	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/f57ed35db15b6eda40eb69a531c9a9bf  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@17:25:53	2177|139687929227008	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/f57ed35db15b6eda40eb69a531c9a9bf  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@17:25:53	2177|139687929227008	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/f57ed35db15b6eda40eb69a531c9a9bf  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@17:25:53	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:25:53	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:25:56	2177|139687929227008	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:25:56	2177|139687929227008	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:25:58	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:25:58	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:26:52	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/f57ed35db15b6eda40eb69a531c9a9bf  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@17:26:52	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/f57ed35db15b6eda40eb69a531c9a9bf  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@17:26:52	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/f57ed35db15b6eda40eb69a531c9a9bf  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@17:26:52	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/f57ed35db15b6eda40eb69a531c9a9bf  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@17:26:52	2177|139687929227008	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/f57ed35db15b6eda40eb69a531c9a9bf  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@17:26:52	2177|139687929227008	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/f57ed35db15b6eda40eb69a531c9a9bf  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@17:26:52	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:26:52	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:26:55	2177|139687929227008	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:26:55	2177|139687929227008	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:26:57	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@17:26:57	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:00:38	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@18:00:38	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@18:00:38	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@18:00:38	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@18:00:38	2177|139687929227008	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@18:00:38	2177|139687929227008	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@18:00:38	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:00:38	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:00:39	2177|139687920506624	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@18:00:39	2177|139687920506624	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@18:00:39	2177|139687368849152	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@18:00:39	2177|139687368849152	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@18:00:39	2177|139687360128768	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@18:00:39	2177|139687360128768	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@18:00:39	2177|139687920506624	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:00:39	2177|139687920506624	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:00:41	2177|139687929227008	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:00:41	2177|139687929227008	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:00:41	2177|139687360128768	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:00:41	2177|139687360128768	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:00:43	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:00:43	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:00:45	2177|139687368849152	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:00:45	2177|139687368849152	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:01:58	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@18:01:58	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@18:01:58	2177|139687368849152	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@18:01:58	2177|139687368849152	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@18:01:58	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@18:01:58	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@18:01:58	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:01:58	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:02:01	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:02:01	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:02:03	2177|139687368849152	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:02:03	2177|139687368849152	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:09:11	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@18:09:11	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@18:09:12	2177|139687368849152	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@18:09:12	2177|139687368849152	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@18:09:12	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@18:09:12	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@18:09:12	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:09:12	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:09:15	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:09:15	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:09:17	2177|139687368849152	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:09:17	2177|139687368849152	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:10:31	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@18:10:31	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@18:10:31	2177|139687368849152	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@18:10:31	2177|139687368849152	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@18:10:31	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@18:10:31	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@18:10:31	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:10:31	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:10:34	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:10:34	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:10:37	2177|139687368849152	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:10:37	2177|139687368849152	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:19:23	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@18:19:23	2177|139687937947392	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@18:19:23	2177|139687368849152	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@18:19:23	2177|139687368849152	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@18:19:23	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@18:19:23	2177|139687946667776	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@18:19:23	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:19:23	2177|139687937947392	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:19:24	2177|139687920506624	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@18:19:24	2177|139687920506624	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:/home/lijun/public/test/test0
+2013-05-31@18:19:24	2177|139687929227008	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@18:19:24	2177|139687929227008	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@18:19:24	2177|139687360128768	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@18:19:24	2177|139687360128768	INFO	upload_remotefile	upload_file:33	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@18:19:24	2177|139687920506624	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:19:24	2177|139687920506624	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:19:26	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:19:26	2177|139687946667776	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:19:26	2177|139687360128768	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:19:26	2177|139687360128768	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:19:28	2177|139687368849152	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:19:28	2177|139687368849152	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:19:29	2177|139687929227008	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:19:29	2177|139687929227008	INFO	upload_remotefile	upload_file:46	pexpect expects (EOF)
+2013-05-31@18:20:59	2177|139687920506624	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@18:20:59	2177|139687920506624	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@18:20:59	2177|139687937947392	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@18:20:59	2177|139687937947392	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@18:20:59	2177|139687946667776	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@18:20:59	2177|139687946667776	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@18:20:59	2177|139687920506624	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@18:20:59	2177|139687920506624	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@18:21:02	2177|139687946667776	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@18:21:02	2177|139687946667776	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@18:21:05	2177|139687937947392	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@18:21:05	2177|139687937947392	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@18:36:54	13056|139645224482560	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@18:36:54	13056|139645776140032	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@18:36:54	13056|139645215762176	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@18:36:54	13056|139645776140032	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@18:36:57	13056|139645198321408	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@18:36:57	13056|139645207041792	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@18:36:57	13056|139645189601024	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@18:36:57	13056|139645207041792	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@18:36:57	13056|139645189601024	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@18:36:57	13056|139645215762176	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@18:37:00	13056|139645224482560	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@18:37:02	13056|139645198321408	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@18:38:01	13056|139645198321408	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@18:38:01	13056|139645207041792	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@18:38:01	13056|139645224482560	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@18:38:01	13056|139645198321408	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@18:38:04	13056|139645207041792	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@18:38:07	13056|139645224482560	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@18:39:39	13518|139753529468672	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@18:39:39	13518|139753520748288	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@18:39:39	13518|139753512027904	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@18:39:39	13518|139753529468672	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@18:39:42	13518|139753512027904	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@18:39:45	13518|139753520748288	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@18:44:39	13518|139753520748288	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@18:44:39	13518|139753529468672	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@18:44:39	13518|139753512027904	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@18:44:40	13518|139753520748288	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@18:44:42	13518|139753512027904	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@18:44:45	13518|139753529468672	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:00:36	13839|140581728679680	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@19:00:36	13839|140582280337152	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@19:00:36	13839|140581719959296	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@19:00:37	13839|140581728679680	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:00:40	13839|140581719959296	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:00:42	13839|140582280337152	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:07:00	13839|140581728679680	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2d9447f2bb8546ea8297015e5226f157  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@19:07:00	13839|140582280337152	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2d9447f2bb8546ea8297015e5226f157  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@19:07:00	13839|140581719959296	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2d9447f2bb8546ea8297015e5226f157  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@19:07:00	13839|140581728679680	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:07:03	13839|140581719959296	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:07:06	13839|140582280337152	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:08:24	13839|140581728679680	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.2:~/public/test/test1
+2013-05-31@19:08:24	13839|140582280337152	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.3:~/public/test/test2
+2013-05-31@19:08:24	13839|140581728679680	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:08:24	13839|140582280337152	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:09:16	13839|140581719959296	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@127.0.0.2:~/public/test/test1
+2013-05-31@19:09:16	13839|140581711238912	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@127.0.0.3:~/public/test/test2
+2013-05-31@19:09:16	13839|140581719959296	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:09:16	13839|140581711238912	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:09:25	13839|140581711238912	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@19:09:25	13839|140581719959296	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@19:09:25	13839|140582280337152	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@19:09:25	13839|140581711238912	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:09:26	13839|140581728679680	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@19:09:26	13839|140581702518528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@19:09:26	13839|140581693798144	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@19:09:26	13839|140581728679680	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:09:28	13839|140582280337152	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:09:28	13839|140581693798144	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:09:31	13839|140581719959296	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:09:31	13839|140581702518528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:13:20	13839|140581702518528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@19:13:20	13839|140581719959296	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@19:13:20	13839|140581728679680	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@19:13:21	13839|140581702518528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:13:24	13839|140581728679680	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:13:26	13839|140581719959296	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:14:33	13839|140581702518528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@19:14:33	13839|140581719959296	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@19:14:33	13839|140581728679680	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek1@172.29.144.119:/home/trek1/public/script
+2013-05-31@19:14:33	13839|140581702518528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:14:36	13839|140581728679680	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:14:38	13839|140581719959296	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:21:25	13839|140581702518528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@19:21:26	13839|140581702518528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:27:42	13839|140581702518528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@19:27:42	13839|140581702518528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:27:57	13839|140581702518528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@19:27:57	13839|140581702518528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:29:47	13839|140581702518528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@19:29:47	13839|140581702518528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:38:26	13839|140581702518528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@19:38:26	13839|140581702518528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:39:15	13839|140581702518528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@19:39:15	13839|140581702518528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:39:34	13839|140581702518528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@19:39:35	13839|140581702518528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:48:06	13839|140581702518528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@19:48:06	13839|140581702518528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:48:19	13839|140581702518528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@19:48:19	13839|140581702518528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:48:44	13839|140581702518528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@19:48:44	13839|140581702518528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@19:51:31	13839|140581702518528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@19:51:31	13839|140581702518528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@20:15:12	13839|140581702518528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@20:15:13	13839|140581702518528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@20:15:27	13839|140581702518528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@20:15:27	13839|140581702518528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@20:18:55	13839|140581702518528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@20:18:55	13839|140581719959296	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@20:18:55	13839|140581702518528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@20:19:00	13839|140581719959296	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@20:19:27	13839|140581719959296	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:~/public/test/test0
+2013-05-31@20:19:27	13839|140581702518528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-05-31@20:19:27	13839|140581719959296	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-05-31@20:19:32	13839|140581702518528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@10:42:17	1263|140167705790208	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:~/public/test/test0
+2013-06-02@10:42:17	1263|140167697069824	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@10:42:18	1263|140167705790208	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@10:42:23	1263|140167697069824	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@10:48:15	2262|140065552443136	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:~/public/test/test0
+2013-06-02@10:48:15	2262|140065560835840	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@10:48:15	2262|140065552443136	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@10:48:21	2262|140065560835840	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@10:54:09	2262|140065560835840	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@127.0.0.1:~/public/test/test0
+2013-06-02@10:54:09	2262|140065552443136	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@10:54:09	2262|140065560835840	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@10:54:14	2262|140065552443136	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@10:55:30	2262|140065552443136	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@127.0.0.1:~/public/test/test0
+2013-06-02@10:55:30	2262|140065560835840	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@10:55:30	2262|140065552443136	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@10:55:36	2262|140065560835840	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@10:59:21	2262|140065560835840	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@127.0.0.1:~/public/test/test0
+2013-06-02@10:59:21	2262|140065552443136	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@10:59:21	2262|140065560835840	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@10:59:26	2262|140065552443136	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:02:11	2262|140065560835840	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@127.0.0.1:~/public/test/test0
+2013-06-02@11:02:11	2262|140065552443136	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@11:02:12	2262|140065560835840	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:02:17	2262|140065552443136	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:25:55	2262|140065560835840	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@127.0.0.1:~/public/test/test0
+2013-06-02@11:25:55	2262|140065552443136	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@11:25:55	2262|140065560835840	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:26:00	2262|140065552443136	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:27:01	2262|140065560835840	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@127.0.0.1:~/public/test/test0
+2013-06-02@11:27:01	2262|140065552443136	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@11:27:01	2262|140065560835840	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:27:06	2262|140065552443136	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:41:20	2262|140065552443136	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172,30.25.117:~/public/test/test0
+2013-06-02@11:41:20	2262|140065560835840	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@11:41:21	2262|140065552443136	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:41:26	2262|140065560835840	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:42:47	2262|140065560835840	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172,30.25.117:~/public/test/test0
+2013-06-02@11:42:47	2262|140065552443136	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@11:42:47	2262|140065560835840	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:42:52	2262|140065552443136	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:43:52	2262|140065552443136	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172,30.25.117:~/public/test/test0
+2013-06-02@11:43:52	2262|140065560835840	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@11:43:53	2262|140065552443136	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:43:58	2262|140065560835840	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:45:14	2262|140065560835840	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172,30.25.117:~/public/test/test0
+2013-06-02@11:45:14	2262|140065552443136	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@11:45:15	2262|140065560835840	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:45:20	2262|140065552443136	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:50:38	2262|140065552443136	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172,30.25.117:~/public/test/test0
+2013-06-02@11:50:38	2262|140065552443136	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:53:08	2262|140065552443136	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@11:53:09	2262|140065552443136	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:53:32	2262|140065552443136	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@11:53:33	2262|140065552443136	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:55:49	20105|140239733516032	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@11:55:49	20105|140239733516032	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:56:59	20105|140239733516032	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@11:56:59	20105|140239725123328	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@11:56:59	20105|140239725123328	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:56:59	20105|140239733516032	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:57:09	20105|140239725123328	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@11:57:09	20105|140239733516032	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@11:57:13	20105|140239725123328	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:57:14	20105|140239733516032	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:57:17	20105|140239716730624	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@11:57:17	20105|140239708337920	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@11:57:17	20105|140239716730624	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@11:57:22	20105|140239708337920	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:01:11	21928|140023884920576	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@17:01:11	21928|140023876200192	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@17:01:11	21928|140023884920576	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:01:16	21928|140023876200192	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:03:19	21928|140023876200192	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@17:03:19	21928|140023884920576	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@17:03:19	21928|140023876200192	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:03:19	21928|140023884920576	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:03:31	21928|140023876200192	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@17:03:31	21928|140023884920576	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@17:03:31	21928|140023876200192	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:03:32	21928|140023884920576	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:07:37	21928|140023876200192	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@17:07:37	21928|140023884920576	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@17:07:37	21928|140023876200192	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:07:37	21928|140023884920576	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:07:41	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@17:07:41	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@17:07:41	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:07:46	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:08:40	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@17:08:40	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@17:08:40	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:08:45	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:13:28	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@17:13:28	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@17:13:29	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:13:34	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:13:48	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@17:13:48	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@17:13:48	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:13:48	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:14:12	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@17:14:12	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@17:14:19	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:14:19	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:14:55	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@17:14:55	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@17:14:56	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:15:01	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:15:13	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@17:15:13	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@17:15:18	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:15:22	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:17:56	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@17:17:56	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@17:17:57	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:17:57	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:18:09	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/817bca8b0a28e9351e95bbd436ca5177  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@17:18:09	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:18:37	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@17:18:37	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@17:18:37	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:18:43	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:19:08	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@17:19:08	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@17:19:08	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:19:08	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:19:17	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@17:19:17	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@17:19:18	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:19:24	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:19:41	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@17:19:41	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@17:19:41	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:19:41	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:21:35	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/e4b675bbae304abdc772d08fc7fc5dab  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@17:21:40	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:39:52	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@17:39:52	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@17:39:53	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:39:57	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:43:52	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@17:43:52	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@17:43:52	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:43:57	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:48:06	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@17:48:06	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@17:48:07	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:48:12	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:49:04	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@17:49:04	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@17:49:04	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:49:04	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:49:12	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@17:49:12	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@17:49:13	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:49:18	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:50:51	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@17:50:51	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@17:50:52	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:50:57	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:51:35	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@17:51:35	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@17:51:35	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:51:41	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:52:23	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@17:52:23	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@17:52:23	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:52:28	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:54:10	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@17:54:10	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@17:54:13	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@17:54:15	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@18:08:28	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@18:08:28	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@18:08:28	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@18:08:33	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@18:09:45	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@18:09:45	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@18:09:45	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@18:09:50	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@18:11:46	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@18:11:46	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@18:11:47	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@18:11:52	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@18:16:07	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@18:16:07	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@18:16:13	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@18:16:16	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@18:25:07	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@18:25:07	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@18:25:08	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@18:25:13	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@18:27:40	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@18:27:40	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@18:27:45	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@18:27:49	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@18:29:19	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@18:29:19	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@18:29:19	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@18:29:24	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@18:31:05	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@18:31:05	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@18:31:05	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@18:31:10	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@18:34:51	21928|140023867479808	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@18:34:51	21928|140023315822336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@18:34:51	21928|140023867479808	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@18:34:56	21928|140023315822336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@18:56:32	5904|140339883120384	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@18:56:32	5904|140339883120384	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@18:56:32	5904|140339465680640	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@18:56:32	5904|140339465680640	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@18:56:33	5904|140339883120384	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@18:56:33	5904|140339883120384	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@18:56:37	5904|140339465680640	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@18:56:37	5904|140339465680640	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:17:38	5904|140339465680640	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:17:38	5904|140339465680640	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:17:38	5904|140339883120384	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:17:38	5904|140339883120384	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:17:39	5904|140339465680640	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:17:39	5904|140339465680640	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:17:42	5904|140339456960256	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:17:42	5904|140339456960256	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:17:42	5904|140339448239872	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:17:42	5904|140339448239872	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:17:43	5904|140339456960256	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:17:43	5904|140339456960256	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:17:43	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:17:43	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:17:43	5904|140339430799104	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:17:43	5904|140339430799104	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:17:43	5904|140339422078720	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:17:43	5904|140339422078720	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:17:43	5904|140339413358336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:17:43	5904|140339413358336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:17:43	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:17:43	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:17:43	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:17:43	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:17:43	5904|140339054307072	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:17:43	5904|140339054307072	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:17:44	5904|140339422078720	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:17:44	5904|140339422078720	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:17:44	5904|140339883120384	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:17:44	5904|140339883120384	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:17:44	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:17:44	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:17:48	5904|140339448239872	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:17:48	5904|140339448239872	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:17:48	5904|140339430799104	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:17:48	5904|140339430799104	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:17:49	5904|140339413358336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:17:49	5904|140339413358336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:17:49	5904|140339054307072	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:17:49	5904|140339054307072	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:10	5904|140339054307072	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:18:10	5904|140339054307072	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:18:10	5904|140339413358336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:18:10	5904|140339413358336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:18:15	5904|140339413358336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:15	5904|140339413358336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:17	5904|140339054307072	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:17	5904|140339054307072	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:29	5904|140339413358336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@19:18:29	5904|140339413358336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@19:18:29	5904|140339054307072	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@19:18:29	5904|140339054307072	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@19:18:29	5904|140339054307072	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:29	5904|140339054307072	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:29	5904|140339413358336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:29	5904|140339413358336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:35	5904|140339413358336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:18:35	5904|140339413358336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:18:35	5904|140339054307072	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:18:35	5904|140339054307072	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:18:36	5904|140339413358336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:36	5904|140339413358336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:41	5904|140339054307072	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:41	5904|140339054307072	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:53	5904|140339054307072	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@19:18:53	5904|140339054307072	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@19:18:53	5904|140339413358336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@19:18:53	5904|140339413358336	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@19:18:53	5904|140339054307072	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:53	5904|140339054307072	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:53	5904|140339413358336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:53	5904|140339413358336	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:57	5904|140339448239872	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:18:57	5904|140339448239872	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:18:57	5904|140339430799104	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:18:57	5904|140339430799104	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:18:57	5904|140339430799104	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:57	5904|140339430799104	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:58	5904|140339883120384	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:18:58	5904|140339883120384	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:18:58	5904|140339465680640	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:18:58	5904|140339465680640	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:18:58	5904|140339456960256	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:18:58	5904|140339456960256	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:18:58	5904|140339883120384	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:58	5904|140339883120384	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:58	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:18:58	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:18:58	5904|140339422078720	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:18:58	5904|140339422078720	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:18:58	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:18:58	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:18:59	5904|140339456960256	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:59	5904|140339456960256	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:59	5904|140339422078720	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:18:59	5904|140339422078720	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:19:02	5904|140339448239872	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:19:02	5904|140339448239872	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:19:03	5904|140339465680640	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:19:03	5904|140339465680640	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:19:04	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:19:04	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:19:04	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:19:04	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:20:24	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:20:24	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:20:24	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:20:24	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:20:24	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:20:24	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:20:29	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:20:29	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:22:03	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@19:22:03	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@19:22:03	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@19:22:03	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@19:22:03	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:22:03	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:22:03	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:22:03	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:22:21	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:22:21	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:22:21	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:22:21	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:22:27	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:22:27	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:22:29	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:22:29	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:23:31	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:23:31	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:23:31	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:23:31	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:23:32	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:23:32	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:23:36	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:23:36	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:24:42	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:24:42	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:24:42	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:24:42	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:24:43	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:24:43	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:24:48	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:24:48	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:26:01	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@19:26:01	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@19:26:01	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@19:26:01	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@19:26:01	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:26:01	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:26:01	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:26:01	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:26:20	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:26:20	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:26:20	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:26:20	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:26:20	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:26:20	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:26:25	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:26:25	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:27:19	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@19:27:19	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@19:27:19	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@19:27:19	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@19:27:19	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:27:19	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:27:19	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:27:19	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:27:30	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:27:30	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:27:30	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:27:30	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:27:31	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:27:31	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:27:36	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:27:36	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:28:20	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@19:28:20	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@19:28:20	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@19:28:20	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@19:28:20	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:28:20	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:28:20	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:28:20	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:28:28	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@19:28:28	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@127.0.0.2:~/public/test/test1
+2013-06-02@19:28:28	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@19:28:28	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@127.0.0.3:~/public/test/test2
+2013-06-02@19:28:28	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:28:28	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:28:28	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:28:28	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:28:38	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:28:38	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:28:38	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:28:38	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:28:44	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:28:44	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:28:47	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:28:47	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:29:30	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:29:30	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:29:30	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:29:30	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@19:29:30	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:29:30	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:29:36	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:29:36	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:29:50	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/817bca8b0a28e9351e95bbd436ca5177  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:29:50	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/817bca8b0a28e9351e95bbd436ca5177  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@19:29:50	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@19:29:50	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@20:48:51	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@20:48:51	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@20:48:51	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@20:48:51	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@20:48:52	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@20:48:52	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@20:48:57	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@20:48:57	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@20:49:11	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@20:49:11	5904|140339439519488	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@20:49:11	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@20:49:11	5904|140339063027456	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@20:49:11	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@20:49:11	5904|140339439519488	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@20:49:17	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@20:49:17	5904|140339063027456	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@20:51:26	9615|139720544134912	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/817bca8b0a28e9351e95bbd436ca5177  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@20:51:26	9615|139720544134912	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@20:51:44	9615|139720544134912	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@20:51:44	9615|139720535414528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@20:51:44	9615|139720544134912	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@20:51:49	9615|139720535414528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@21:36:20	10043|139880808822528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/817bca8b0a28e9351e95bbd436ca5177  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@21:36:25	10043|139880808822528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@21:41:25	10043|139880808822528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@21:41:25	10043|139880800102144	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@21:41:26	10043|139880808822528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@21:41:31	10043|139880800102144	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@21:53:58	10043|139880800102144	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/f57ed35db15b6eda40eb69a531c9a9bf  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@21:53:58	10043|139880808822528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/f57ed35db15b6eda40eb69a531c9a9bf  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@21:53:59	10043|139880800102144	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@21:54:03	10043|139880808822528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@21:59:37	10043|139880808822528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@21:59:37	10043|139880800102144	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@21:59:38	10043|139880808822528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@21:59:43	10043|139880800102144	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@22:03:56	10043|139880800102144	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/f57ed35db15b6eda40eb69a531c9a9bf  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@22:03:56	10043|139880808822528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/f57ed35db15b6eda40eb69a531c9a9bf  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@22:03:57	10043|139880800102144	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@22:04:02	10043|139880808822528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@22:18:45	10043|139880800102144	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/817bca8b0a28e9351e95bbd436ca5177  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@22:18:53	10043|139880800102144	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@22:19:18	10043|139880800102144	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@22:19:18	10043|139880808822528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@22:19:18	10043|139880800102144	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@22:19:24	10043|139880808822528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@22:19:51	10043|139880808822528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@22:19:51	10043|139880800102144	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@22:19:56	10043|139880808822528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@22:19:57	10043|139880800102144	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@22:22:16	10043|139880800102144	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@22:22:16	10043|139880808822528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@22:22:16	10043|139880800102144	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@22:22:21	10043|139880808822528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@22:23:00	10043|139880808822528	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.30.25.117:~/public/test/test0
+2013-06-02@22:23:00	10043|139880800102144	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-02@22:23:05	10043|139880808822528	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-02@22:23:06	10043|139880800102144	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:40:47	1095|140520163690240	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@08:40:47	1095|140520163690240	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@08:40:47	1095|140520154969856	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@08:40:47	1095|140520154969856	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@08:40:47	1095|140520154969856	INFO	upload_remotefile	upload_file:35	pexpect expects (yes/no)
+2013-06-03@08:40:47	1095|140520154969856	INFO	upload_remotefile	upload_file:35	pexpect expects (yes/no)
+2013-06-03@08:40:48	1095|140520154969856	ERROR	upload_remotefile	upload_file:57	End Of File (EOF) in read_nonblocking(). Exception style platform.
+<pexpect.spawn object at 0x7fcd801f9f50>
+version: 2.4 ($Revision: 516 $)
+command: /usr/bin/scp
+args: ['/usr/bin/scp', '-P', '22', 'script_files/23aa3dadb7cd337912eacad52a31ef1b', 'lijun@172.29.140.118:~/public/test/test0']
+searcher: searcher_re:
+    0: re.compile("password")
+buffer (last 100 chars): 
+before (last 100 chars): .0KB/s   --:-- ETA23aa3dadb7cd337912eacad52a31ef1b              100%   48     0.1KB/s   00:00    
+
+after: <class 'pexpect.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 1491
+child_fd: 11
+closed: False
+timeout: None
+delimiter: <class 'pexpect.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+2013-06-03@08:40:48	1095|140520154969856	ERROR	upload_remotefile	upload_file:57	End Of File (EOF) in read_nonblocking(). Exception style platform.
+<pexpect.spawn object at 0x7fcd801f9f50>
+version: 2.4 ($Revision: 516 $)
+command: /usr/bin/scp
+args: ['/usr/bin/scp', '-P', '22', 'script_files/23aa3dadb7cd337912eacad52a31ef1b', 'lijun@172.29.140.118:~/public/test/test0']
+searcher: searcher_re:
+    0: re.compile("password")
+buffer (last 100 chars): 
+before (last 100 chars): .0KB/s   --:-- ETA23aa3dadb7cd337912eacad52a31ef1b              100%   48     0.1KB/s   00:00    
+
+after: <class 'pexpect.EOF'>
+match: None
+match_index: None
+exitstatus: None
+flag_eof: True
+pid: 1491
+child_fd: 11
+closed: False
+timeout: None
+delimiter: <class 'pexpect.EOF'>
+logfile: None
+logfile_read: None
+logfile_send: None
+maxread: 2000
+ignorecase: False
+searchwindowsize: None
+delaybeforesend: 0.05
+delayafterclose: 0.1
+delayafterterminate: 0.1
+2013-06-03@08:40:53	1095|140520163690240	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:40:53	1095|140520163690240	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:42:09	1095|140520163690240	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@08:42:09	1095|140520163690240	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@08:42:09	1095|140520154969856	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@08:42:09	1095|140520154969856	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@08:42:09	1095|140520154969856	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:42:09	1095|140520154969856	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:42:14	1095|140520163690240	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:42:14	1095|140520163690240	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:46:23	1095|140520163690240	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@08:46:23	1095|140520163690240	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@08:46:23	1095|140520154969856	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@08:46:23	1095|140520154969856	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@08:46:23	1095|140520154969856	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:46:23	1095|140520154969856	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:46:28	1095|140520163690240	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:46:28	1095|140520163690240	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:49:31	1095|140520163690240	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@08:49:31	1095|140520163690240	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@08:49:31	1095|140520154969856	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@08:49:31	1095|140520154969856	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@08:49:31	1095|140520154969856	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:49:31	1095|140520154969856	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:49:36	1095|140520163690240	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:49:36	1095|140520163690240	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:53:05	1095|140520163690240	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@08:53:05	1095|140520163690240	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@08:53:05	1095|140520154969856	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@08:53:05	1095|140520154969856	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@08:53:06	1095|140520154969856	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:53:06	1095|140520154969856	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:53:11	1095|140520163690240	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:53:11	1095|140520163690240	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:55:29	1095|140520163690240	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@08:55:29	1095|140520163690240	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@08:55:29	1095|140520154969856	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@08:55:29	1095|140520154969856	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@08:55:29	1095|140520154969856	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:55:29	1095|140520154969856	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:55:35	1095|140520163690240	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:55:35	1095|140520163690240	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:55:56	1095|140520163690240	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@08:55:56	1095|140520163690240	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@08:55:56	1095|140520154969856	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@08:55:56	1095|140520154969856	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@08:55:56	1095|140520154969856	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:55:56	1095|140520154969856	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:56:03	1095|140520163690240	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:56:03	1095|140520163690240	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:58:38	1095|140520163690240	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@08:58:38	1095|140520163690240	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@08:58:38	1095|140520154969856	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@08:58:38	1095|140520154969856	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2b759a62570e4b5ff3b1295963dd56ba script_files/786043d7b020426935a66064b44c7200  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@08:58:39	1095|140520154969856	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:58:39	1095|140520154969856	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:58:44	1095|140520163690240	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@08:58:44	1095|140520163690240	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:01:21	2667|140205674112768	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@09:01:21	2667|140205665392384	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@09:01:21	2667|140205665392384	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:01:26	2667|140205674112768	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:02:04	2667|140205674112768	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@09:02:04	2667|140205665392384	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/23aa3dadb7cd337912eacad52a31ef1b  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@09:02:05	2667|140205665392384	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:02:10	2667|140205674112768	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:04:51	2667|140205674112768	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@09:04:51	2667|140205665392384	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@09:04:51	2667|140205665392384	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:04:56	2667|140205674112768	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:08:10	2667|140205674112768	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@09:08:10	2667|140205665392384	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/bb877fec5264d429cee09a7e8aa0bb17  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@09:08:10	2667|140205665392384	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:08:15	2667|140205674112768	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:11:27	2667|140205674112768	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2d9447f2bb8546ea8297015e5226f157  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@09:11:27	2667|140205665392384	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2d9447f2bb8546ea8297015e5226f157  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@09:11:27	2667|140205665392384	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:11:33	2667|140205674112768	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:12:50	2667|140205674112768	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2d9447f2bb8546ea8297015e5226f157  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@09:12:50	2667|140205665392384	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2d9447f2bb8546ea8297015e5226f157  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@09:12:50	2667|140205665392384	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:12:55	2667|140205674112768	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:15:16	2667|140205665392384	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2d9447f2bb8546ea8297015e5226f157  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@09:15:16	2667|140205674112768	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2d9447f2bb8546ea8297015e5226f157  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@09:15:16	2667|140205674112768	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:15:21	2667|140205665392384	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:18:45	5177|140301523011328	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2d9447f2bb8546ea8297015e5226f157  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@09:18:45	5177|140301514290944	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2d9447f2bb8546ea8297015e5226f157  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@09:18:46	5177|140301514290944	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:18:51	5177|140301523011328	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:19:53	5296|140153431189248	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/85ace001c727d73a635c4ab21dc88d42  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@09:19:53	5296|140153422468864	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/85ace001c727d73a635c4ab21dc88d42  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@09:20:00	5296|140153431189248	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:20:04	5296|140153422468864	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:26:04	5296|140153422468864	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/85ace001c727d73a635c4ab21dc88d42  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@09:26:04	5296|140153431189248	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/85ace001c727d73a635c4ab21dc88d42  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@09:26:04	5296|140153431189248	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:26:10	5296|140153422468864	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:28:42	5296|140153422468864	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/85ace001c727d73a635c4ab21dc88d42  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@09:28:42	5296|140153431189248	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/85ace001c727d73a635c4ab21dc88d42  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@09:28:42	5296|140153431189248	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:28:47	5296|140153422468864	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:30:34	5296|140153431189248	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/85ace001c727d73a635c4ab21dc88d42  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@09:30:34	5296|140153422468864	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/85ace001c727d73a635c4ab21dc88d42  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@09:30:35	5296|140153422468864	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:30:40	5296|140153431189248	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:44:00	5296|140153431189248	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/817bca8b0a28e9351e95bbd436ca5177  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@09:44:00	5296|140153431189248	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:44:49	5296|140153431189248	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@09:44:49	5296|140153422468864	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/b99bbbf8ac4a4a9a41eea9742390ef67  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@09:44:49	5296|140153422468864	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:44:54	5296|140153431189248	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:46:37	5296|140153431189248	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2d9447f2bb8546ea8297015e5226f157  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@09:46:37	5296|140153422468864	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2d9447f2bb8546ea8297015e5226f157  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@09:46:37	5296|140153422468864	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:46:42	5296|140153431189248	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:46:50	5296|140153422468864	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/f57ed35db15b6eda40eb69a531c9a9bf  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@09:46:50	5296|140153413748480	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/f57ed35db15b6eda40eb69a531c9a9bf  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@09:46:51	5296|140153413748480	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:46:56	5296|140153422468864	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:49:41	5296|140153413748480	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/f57ed35db15b6eda40eb69a531c9a9bf  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@09:49:41	5296|140153422468864	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/f57ed35db15b6eda40eb69a531c9a9bf  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@09:49:41	5296|140153422468864	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:49:46	5296|140153413748480	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:53:22	5296|140153422468864	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/85ace001c727d73a635c4ab21dc88d42  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@09:53:22	5296|140153413748480	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/85ace001c727d73a635c4ab21dc88d42  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@09:53:22	5296|140153413748480	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:53:27	5296|140153422468864	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:53:57	5296|140153413748480	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2d9447f2bb8546ea8297015e5226f157  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@09:53:57	5296|140153422468864	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2d9447f2bb8546ea8297015e5226f157  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@09:53:57	5296|140153422468864	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:54:03	5296|140153413748480	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:56:57	5296|140153413748480	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2d9447f2bb8546ea8297015e5226f157  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@09:56:57	5296|140153422468864	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/2d9447f2bb8546ea8297015e5226f157  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@09:56:57	5296|140153422468864	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@09:57:02	5296|140153413748480	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@10:15:27	5296|140153413748480	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/85ace001c727d73a635c4ab21dc88d42  trek@172.29.144.118:/home/trek/public/script
+2013-06-03@10:15:27	5296|140153422468864	INFO	upload_remotefile	upload_file:30	scp -P 22  script_files/85ace001c727d73a635c4ab21dc88d42  lijun@172.29.140.118:~/public/test/test0
+2013-06-03@10:15:27	5296|140153422468864	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)
+2013-06-03@10:15:32	5296|140153413748480	INFO	upload_remotefile	upload_file:43	pexpect expects (EOF)

@@ -1,13 +1,7 @@
-
 import os
 import web
 from view import render
 import pickle as p
-import control
-import listen
-
-
-from ClusterManagement.web  import  controller
 
 urls=(
     '/','index',
@@ -19,15 +13,11 @@ urls=(
     '/machine_info','machine_info',
     '/init_info','init_info',
     '/get_info','get_info',
-    '/ClusterManagment',controller.clusterapp,
 
 )
 class index:
     def GET(self,):
         return render.index()
-
-
-
         
 class machine_list:
     def GET(self,):

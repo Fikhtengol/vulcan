@@ -15,8 +15,6 @@ import time
 '''
 prepare inputhome,outputhome,num_conn thd_num, proxy,taskqueue,inter thread,outer thread
 '''
-
-
 if len(sys.argv)<2:
 	print "Usage: %s [dirpath with URLs to fetch] [path of destdir] [<# of concurrent connections>] [<# of threads>] " % sys.argv[0]
 	sys.exit(1)

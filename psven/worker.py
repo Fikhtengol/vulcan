@@ -6,6 +6,10 @@ import sys
 import os, sys
 import logging
 from log import LOG
+import redis
+import filter
+import config
+import re
 #try:
 #	from cStringIO import StringIO
 #except ImportError:
@@ -21,6 +25,7 @@ class worker(threading.Thread):
 		self.no=no 
 		self.queue=q
 		self.proxy=proxy
+                self.r=redis.StrictRedis(host=config.supervison,port=config.redis_port,db=0)
 		# Pre-allocate a list of curl objects
 		self.m = pycurl.CurlMulti()
 		self.m.handles = []
@@ -46,6 +51,16 @@ class worker(threading.Thread):
 			c.setopt(pycurl.PROXY,pxy)
 			c.setopt(pycurl.HTTPPROXYTUNNEL,1)
 		return c
+
+        def saveto_redis(self,r,url,htm,nowtime):
+                try:
+                        fr=filter.Filter()
+                        subject=fr.take_subject(htm)
+                        if len(subject[0]) and len(subject[1]):
+                                r.hset('meta',url,[subject[0].strip(),subject[1].strip(),nowtime,config.localhost])
+                                r.rpush('sort',url)
+                except:
+                        print e
 	def run(self): 
 	  # Main loop
 	  print 'worker',self.no,'starting...'
@@ -81,6 +96,7 @@ class worker(threading.Thread):
 			ret, num_handles = self.m.perform()
 			if ret != pycurl.E_CALL_MULTI_PERFORM:
 				break
+                                
 		# Check for curl objects which have terminated, and add them to the freelist
 		with self.lock:
 		  nowtime=time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) 
@@ -93,6 +109,7 @@ class worker(threading.Thread):
 					htmllen=len(c.task.html)+1
 					c.task.firstline +="\t"+c.getinfo(pycurl.EFFECTIVE_URL)+"\t"+str(htmllen)
 					self.queue.saveme(c.task.firstline+"\n"+c.task.html+"\n")
+                                        self.saveto_redis(self.r,c.task.url,c.task.html,nowtime)
 				else:
 					LOG.info("BadResponse: "+c.start_time+"\t"+nowtime+"\t"+str(c.task.id)+"\t"+"httpcode="+str(c.getinfo(pycurl.HTTP_CODE))+"\t"+c.task.url)
 				self.m.remove_handle(c)

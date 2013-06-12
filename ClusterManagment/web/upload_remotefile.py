@@ -15,9 +15,6 @@ def upload_file(file_path_list , remote_user , remote_host ,remote_path , passwo
     Copy a file to remote machine. return 0 if success
     '''
     logger = Logging.getLogger(log_file='upload_remotefile.log')
-    remote_path=os.path.expanduser(remote_path)
-
-        
     try :
         file_path = ' '# multi files
         for path_item in file_path_list :

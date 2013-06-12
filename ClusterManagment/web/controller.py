@@ -21,9 +21,17 @@ urls = (
         '/get_info','get_info',
         '/init_info','init_info',
         '/','about',
+        '/show','show',
         '/(.*)','index',
+
     
 )
+class show:
+    def GET(self,):
+        res=helper.getallshow()
+        
+        return render.show(res)
+
 class init_info:
     def GET(self,):
         ip=web.input()['ip']
@@ -308,6 +316,7 @@ class index :
                     script_status.append(0)
             status["script_status"] = script_status
             status_list.append(status)
+            print status_list
         current_scripts = helper.get_scripts_by_group_id(current_task["script_group"].id)["val"]
         args["server_group_list"] = server_group_list
         args["script_group_list"] = script_group_list
@@ -389,8 +398,10 @@ class index :
             print request_res
             if request_res["status"] == -1 :
                 raise web.seeother('manage_task?res=notstart')
+            count=0
             for i in request_res['val'].values():
-                i['content']=request_res['val'].values()[0]['content'].replace('\r\n','<br/>')
+                i['content']=request_res['val'].values()[count]['content'].replace('\r\n','<br/>')
+                count+=1
             return self.do_with_view_status( task_id , request_res["val"]) 
         elif action_name == "run_task" :
             task_id = post_data["task_id"]

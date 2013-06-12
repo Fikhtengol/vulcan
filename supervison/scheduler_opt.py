@@ -15,6 +15,8 @@ if __name__=="__main__":
         print "not valid ip:%s"%(worker)
         sys.exit(1)
     workers=fdb.get()
+    if workers==None:
+        workers=[]
     has_worker=False
     if worker in workers:
         has_worker=True

@@ -1,0 +1,35 @@
+$def with(res,)
+<div >
+<table class="table table-bordered">
+  $ id=0
+  $for key in res.keys()[0:100]:
+    $ id=id+1
+    <tr>
+      <table class="table table-bordered">
+	<tr>
+	  <td>$id</td>
+	  <td>$res[key][2]</td>
+	  <td><a href="$key">$key</a></td>
+	</tr>
+	<tr>
+	  <td>#</td>
+	  <td>工作节点</td>
+	  <td>$res[key][3]</td>
+	</tr>
+	<tr>
+	  <td>#</td>
+	  <td>标题</td>
+	  <td>
+	    $res[key][0]
+	  </td>
+	</tr>
+      </table>  
+      <table class="table table-bordered">
+	<tr>
+	  $res[key][1]
+	</tr>
+      </table>  
+
+    </tr>
+</table> 
+</div>

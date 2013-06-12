@@ -44,13 +44,15 @@ $for i in range(services_list_length) :
     $ service = args["services_list"][i]
     <tr>
         <td>${i+1}</td>
-        <td>$service.name</td>
+        <td>
+	    $service.name
+	</td>
         <td>$service.desc</td>
         <td>
             $for service_group in service.groups :
 	    <a href="/manage_server?group_id=$service_group.id">
-            $service_group.name ,
-	  </a>
+              $service_group.name,
+	    </a>
 	</td>
 
 
@@ -84,10 +86,9 @@ $for i in range(services_list_length) :
               </ul>
 	    </div>
 
-            <a href="/manage_task?service_id=$service.id" class="btn" >
-              Tasks
+            <a href="/manage_task?service_id=$service.id" class="btn">
+	      Tasks
             </a>
-
             <a href="/deleteservice?category=service&service_id=$service.id&current_group_id=$current_group_id" class="btn">
 	      Delete
             </a>

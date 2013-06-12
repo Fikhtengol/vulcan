@@ -1,137 +1,66 @@
-Success: 2013-04-07 18:00:44	2013-04-07 18:00:48	2	httpcode=200	http://hzp.onlylady.com/mianshuang_index/enprani/p_9001_1_26_2604_2_1.html
-Success: 2013-04-07 18:00:49	2013-04-07 18:00:53	485	httpcode=200	http://hzp.onlylady.com/luhuijiao_index/theone/p_9001_1_26_2604_2_1.html
-Success: 2013-04-07 18:00:54	2013-04-07 18:00:58	959	httpcode=200	http://hzp.onlylady.com/jinghua_index/whitest/p_9001_1_26_2389_2_1.html
-Success: 2013-04-07 18:01:04	2013-04-07 18:01:07	1057	httpcode=200	http://hzp.onlylady.com/mianmo_index/swissclinical/p_9001_1_26_2576_2_1.html
-Failed: 2013-04-07 18:00:59	2013-04-07 18:01:10	1752	1	http://hzp.onlylady.com/mianmo_index/daffadily/p_9001_1_26_2356_2_1.html	28	Connection time-out
-Success: 2013-04-07 18:01:09	2013-04-07 18:01:12	542	httpcode=200	http://hzp.onlylady.com/mianmo_index/herbalwhisper/p_9001_1_26_2502_2_1.html
-Success: 2013-04-07 18:01:19	2013-04-07 18:01:24	2604	httpcode=200	http://hzp.onlylady.com/mianmo_index/skincode/p_9001_1_26_2574_2_1.html
-Success: 2013-04-07 18:01:24	2013-04-07 18:01:28	240	httpcode=200	http://hzp.onlylady.com/jiemian_index/millcreek/p_9001_1_23_893_5_1.html
-Success: 2013-04-07 18:01:29	2013-04-07 18:01:34	1534	httpcode=200	http://hzp.onlylady.com/mianmo_index/sunsmile/p_9001_1_26_2604_2_1.html
-Success: 2013-04-07 18:01:34	2013-04-07 18:01:38	52	httpcode=200	http://hzp.onlylady.com/huazhuangshui_index/naturegem/p_9001_1_26_1954_2_1.html
-Success: 2013-04-07 18:01:39	2013-04-07 18:01:42	2919	httpcode=200	http://hzp.onlylady.com/zhenzhufen_index/dobstore/p_9001_1_26_2351_2_1.html
-Success: 2013-04-07 18:01:44	2013-04-07 18:01:48	2438	httpcode=200	http://hzp.onlylady.com/mianmo_index/rominz/p_9001_1_26_2351_2_1.html
-Success: 2013-04-07 18:01:49	2013-04-07 18:01:52	2292	httpcode=200	http://hzp.onlylady.com/jinghua_index/velds/p_9001_1_26_2389_2_1.html
-Success: 2013-04-07 18:01:54	2013-04-07 18:01:58	1921	httpcode=200	http://hzp.onlylady.com/tquhuli_index/aonaliya/p_9001_1_26_2576_2_1.html
-Success: 2013-04-07 18:01:59	2013-04-07 18:02:02	1347	httpcode=200	http://hzp.onlylady.com/mianmo_index/fanjeis/p_9001_1_26_2576_2_1.html
-Success: 2013-04-07 18:02:04	2013-04-07 18:02:08	3337	httpcode=200	http://hzp.onlylady.com/mianmo_index/embryolisse/p_9001_1_26_2329_2_1.html
-Success: 2013-04-07 18:02:09	2013-04-07 18:02:13	431	httpcode=200	http://hzp.onlylady.com/huazhuangshui_index/whiteskin/p_9001_1_26_2604_2_1.html
-Success: 2013-04-07 18:02:14	2013-04-07 18:02:18	2295	httpcode=200	http://hzp.onlylady.com/mianmo_index/theone/p_9001_1_26_2576_2_1.html
-Success: 2013-04-07 18:02:19	2013-04-07 18:02:26	407	httpcode=200	http://hzp.onlylady.com/mianshuang_index/egoqv/p_9001_1_26_2604_2_1.html
-Success: 2013-04-07 18:02:24	2013-04-07 18:02:28	649	httpcode=200	http://hzp.onlylady.com/mianmo_index/foyage/p_9001_1_26_2604_2_1.html
-Success: 2013-04-07 18:02:29	2013-04-07 18:02:32	1148	httpcode=200	http://hzp.onlylady.com/zhenzhufen_index/jinyuxuan/p_9001_1_26_2604_2_1.html
-Success: 2013-04-07 18:02:34	2013-04-07 18:02:37	1241	httpcode=200	http://hzp.onlylady.com/jinghua_index/lc/p_9001_1_26_2389_2_1.html
-Success: 2013-04-07 18:02:39	2013-04-07 18:02:42	1235	httpcode=200	http://hzp.onlylady.com/mianshuang_index/soigne/p_9001_1_26_2554_2_1.html
-Success: 2013-04-07 18:02:44	2013-04-07 18:02:47	1710	httpcode=200	http://hzp.onlylady.com/mianmo_index/barbie/p_9001_1_26_2576_0_1.html
-Success: 2013-04-07 18:02:49	2013-04-07 18:02:53	4003	httpcode=200	http://hzp.onlylady.com/jinghua_index/elssme/p_9001_1_26_2389_2_1.html
-Success: 2013-04-07 18:02:54	2013-04-07 18:02:58	334	httpcode=200	http://hzp.onlylady.com/mianshuang_index/szvon/p_9001_1_26_2604_2_1.html
-Success: 2013-04-07 18:02:59	2013-04-07 18:03:04	3280	httpcode=200	http://hzp.onlylady.com/mianmo_index/herbaceutic/p_9001_1_26_2497_2_1.html
-Success: 2013-04-07 18:03:04	2013-04-07 18:03:10	1626	httpcode=200	http://hzp.onlylady.com/jiemian_index/shumeihua/p_9001_1_26_2604_2_1.html
-Success: 2013-04-07 18:03:09	2013-04-07 18:03:13	1800	httpcode=200	http://hzp.onlylady.com/heitoudaochuye_index/avenis/p_9001_1_26_2576_2_1.html
-Success: 2013-04-07 18:03:14	2013-04-07 18:03:18	2027	httpcode=200	http://hzp.onlylady.com/mianmo_index/qbeauty/p_9001_1_23_2576_2_1.html
-Success: 2013-04-07 18:03:19	2013-04-07 18:03:24	3496	httpcode=200	http://hzp.onlylady.com/jiemian_index/eb/p_9001_1_26_2604_2_1.html
-Success: 2013-04-07 18:03:24	2013-04-07 18:03:29	3780	httpcode=200	http://hzp.onlylady.com/mianmo_index/louisvena/p_9001_1_26_2361_2_1.html
-Success: 2013-04-07 18:03:29	2013-04-07 18:03:34	5070	httpcode=200	http://hzp.onlylady.com/mianmo_index/ferzea/p_9001_1_26_2329_2_1.html
-Success: 2013-04-07 18:03:34	2013-04-07 18:03:39	1870	httpcode=200	http://hzp.onlylady.com/mianmo_index/oguma/p_9001_1_26_2576_2_1.html
-Success: 2013-04-07 18:03:39	2013-04-07 18:03:43	2812	httpcode=200	http://hzp.onlylady.com/jinghua_index/illyssla/p_9001_1_26_2575_2_1.html
-Success: 2013-04-07 18:03:44	2013-04-07 18:03:48	2111	httpcode=200	http://hzp.onlylady.com/mianmo_index/shaonvzhichun/p_9001_1_26_2574_2_1.html
-Success: 2013-04-07 18:03:49	2013-04-07 18:03:54	2457	httpcode=200	http://hzp.onlylady.com/mianmo_index/ibasoe/p_9001_1_26_2351_2_1.html
-Success: 2013-04-07 18:03:54	2013-04-07 18:04:00	1565	httpcode=200	http://hzp.onlylady.com/jiemian_index/forever/p_9001_1_26_2604_2_1.html
-Success: 2013-04-07 18:03:59	2013-04-07 18:04:07	4021	httpcode=200	http://hzp.onlylady.com/mianmo_index/chenonceau/p_9001_1_26_2361_2_1.html
-Success: 2013-04-07 18:04:04	2013-04-07 18:04:08	2832	httpcode=200	http://hzp.onlylady.com/mianmo_index/goodskin/p_9001_1_26_2351_2_1.html
-Success: 2013-04-07 18:04:09	2013-04-07 18:04:14	529	httpcode=200	http://hzp.onlylady.com/jiemian_index/puresim/p_9001_1_23_893_5_1.html
-Success: 2013-04-07 18:04:14	2013-04-07 18:04:22	3521	httpcode=200	http://hzp.onlylady.com/mianmo_index/bogazy/p_9001_1_21_2329_2_1.html
-Success: 2013-04-07 18:04:19	2013-04-07 18:04:24	5146	httpcode=200	http://hzp.onlylady.com/mianmo_index/ren/p_9001_1_26_2351_0_1.html
-Success: 2013-04-07 18:04:24	2013-04-07 18:04:29	2385	httpcode=200	http://hzp.onlylady.com/yueye_index/besilke/p_9001_1_26_2576_2_1.html
-Success: 2013-04-07 18:04:29	2013-04-07 18:04:34	3949	httpcode=200	http://hzp.onlylady.com/mianmo_index/purebeauty/p_9001_1_26_1985_2_1.html
-Success: 2013-04-07 18:04:34	2013-04-07 18:04:39	1788	httpcode=200	http://hzp.onlylady.com/jinghua_index/yani/p_9001_1_26_2575_2_1.html
-Success: 2013-04-07 18:04:39	2013-04-07 18:04:45	1065	httpcode=200	http://hzp.onlylady.com/mianshuang_index/xueguo/p_9001_1_26_2604_2_1.html
-Success: 2013-04-07 18:04:44	2013-04-07 18:04:51	2359	httpcode=200	http://hzp.onlylady.com/mianmo_index/jansonbeckett/p_9001_1_26_2576_2_1.html
-Success: 2013-04-07 18:04:49	2013-04-07 18:04:54	3350	httpcode=200	http://hzp.onlylady.com/mianmo_index/gerdaspillman/p_9001_1_26_2578_2_1.html
-Success: 2013-04-07 18:04:54	2013-04-07 18:04:59	3537	httpcode=200	http://hzp.onlylady.com/mianmo_index/thayers/p_9001_1_26_2576_2_1.html
-Success: 2013-04-07 18:04:59	2013-04-07 18:05:04	1798	httpcode=200	http://hzp.onlylady.com/mianmo_index/dermasilk/p_9001_1_26_1954_2_1.html
-Success: 2013-04-07 18:05:04	2013-04-07 18:05:09	2814	httpcode=200	http://hzp.onlylady.com/mianmo_index/mustela/p_9001_1_26_2351_2_1.html
-Success: 2013-04-07 18:05:09	2013-04-07 18:05:14	6217	httpcode=200	http://hzp.onlylady.com/mianmo_index/revlon/p_9001_1_26_2576_2_1.html
-Success: 2013-04-07 18:05:14	2013-04-07 18:05:19	4876	httpcode=200	http://hzp.onlylady.com/mianbuhuli_index/hannule/p_9001_1_26_1976_2_1.html
-Success: 2013-04-07 18:05:19	2013-04-07 18:05:24	5072	httpcode=200	http://hzp.onlylady.com/mianmo_index/forbeauty/p_9001_1_26_2329_2_1.html
-Success: 2013-04-07 18:05:24	2013-04-07 18:05:29	2861	httpcode=200	http://hzp.onlylady.com/mianmo_index/aromawoman/p_9001_1_26_2337_2_1.html
-Success: 2013-04-07 18:05:29	2013-04-07 18:05:34	3261	httpcode=200	http://hzp.onlylady.com/mianmo_index/pba/p_9001_1_26_2351_2_1.html
-Success: 2013-04-07 18:05:34	2013-04-07 18:05:39	6155	httpcode=200	http://hzp.onlylady.com/mianmo_index/yummymummy/p_9001_1_26_2576_2_1.html
-Success: 2013-04-07 18:05:39	2013-04-07 18:05:48	277	httpcode=200	http://hzp.onlylady.com/mianmo_index/ultraceuticals/p_9001_1_22_2604_2_1.html
-Success: 2013-04-07 18:05:44	2013-04-07 18:05:49	1401	httpcode=200	http://hzp.onlylady.com/tquhuli_index/baililan/p_9001_1_26_2389_2_1.html
-Success: 2013-04-07 18:05:49	2013-04-07 18:05:59	1731	httpcode=200	http://hzp.onlylady.com/mianmo_index/oceanpotion/p_9001_1_26_2554_2_1.html
-Success: 2013-04-07 18:05:54	2013-04-07 18:06:02	1272	httpcode=200	http://hzp.onlylady.com/jinghua_index/yelee/p_9001_1_25_2604_2_1.html
-Success: 2013-04-07 18:05:59	2013-04-07 18:06:07	3897	httpcode=200	http://hzp.onlylady.com/mianmo_index/roc/p_9001_1_26_2351_0_1.html
-Success: 2013-04-07 18:06:04	2013-04-07 18:06:12	85	httpcode=200	http://hzp.onlylady.com/jiemian_index/cuk/p_9001_1_26_2604_2_1.html
-Success: 2013-04-07 18:06:09	2013-04-07 18:06:17	2885	httpcode=200	http://hzp.onlylady.com/mianmo_index/jasonnatural/p_9001_1_26_2457_2_1.html
-Success: 2013-04-07 18:06:14	2013-04-07 18:06:20	5681	httpcode=200	http://hzp.onlylady.com/mianbuhuli_index/skinlite/p_9001_1_26_2569_2_1.html
-Success: 2013-04-07 18:06:19	2013-04-07 18:06:25	2045	httpcode=200	http://hzp.onlylady.com/mianmo_index/isqueen/p_9001_1_26_1982_2_1.html
-Success: 2013-04-07 18:06:24	2013-04-07 18:06:30	2434	httpcode=200	http://hzp.onlylady.com/qujiaozhi_index/savnatural/p_9001_1_26_2576_2_1.html
-Success: 2013-04-07 18:06:29	2013-04-07 18:06:35	2476	httpcode=200	http://hzp.onlylady.com/mianmo_index/mukti/p_9001_1_26_2329_2_1.html
-Success: 2013-04-07 18:06:34	2013-04-07 18:06:40	2603	httpcode=200	http://hzp.onlylady.com/mianmo_index/skincode/p_9001_1_26_2356_2_1.html
-Success: 2013-04-07 18:06:39	2013-04-07 18:06:45	1261	httpcode=200	http://hzp.onlylady.com/jinghua_index/theone/p_9001_1_26_2604_2_1.html
-Success: 2013-04-07 18:06:44	2013-04-07 18:06:50	1477	httpcode=200	http://hzp.onlylady.com/mianmo_index/anina/p_9001_1_26_2604_2_1.html
-Success: 2013-04-07 18:06:49	2013-04-07 18:06:55	1967	httpcode=200	http://hzp.onlylady.com/mianmo_index/aonaliya/p_9001_1_26_2556_2_1.html
-Success: 2013-04-07 18:06:54	2013-04-07 18:07:00	934	httpcode=200	http://hzp.onlylady.com/jinghua_index/puremild/p_9001_1_26_1982_2_1.html
-Success: 2013-04-07 18:06:59	2013-04-07 18:07:05	2349	httpcode=200	http://hzp.onlylady.com/mianmo_index/californiababy/p_9001_1_26_1976_2_1.html
-Success: 2013-04-07 18:07:04	2013-04-07 18:07:11	6510	httpcode=200	http://hzp.onlylady.com/mianmo_index/swissweda/p_9001_1_26_2351_0_1.html
-Success: 2013-04-07 18:07:09	2013-04-07 18:07:18	5117	httpcode=200	http://hzp.onlylady.com/mianbuhuli_index/drg/p_9001_1_26_2351_2_1.html
-Success: 2013-04-07 18:07:14	2013-04-07 18:07:24	231	httpcode=200	http://hzp.onlylady.com/mianmo_index/ultraceuticals/p_9001_1_26_2513_2_1.html
-Success: 2013-04-07 18:07:19	2013-04-07 18:07:28	436	httpcode=200	http://hzp.onlylady.com/mianmo_index/lavie/p_9001_1_26_2604_2_1.html
-Success: 2013-04-07 18:07:24	2013-04-07 18:07:33	1915	httpcode=200	http://hzp.onlylady.com/mianmo_index/nadri/p_9001_1_26_1985_2_1.html
-Success: 2013-04-07 18:07:29	2013-04-07 18:07:38	6886	httpcode=200	http://hzp.onlylady.com/mianmo_index/heynature/p_9001_1_20_2351_0_1.html
-Success: 2013-04-07 18:07:34	2013-04-07 18:07:45	3276	httpcode=200	http://hzp.onlylady.com/jinghua_index/shanghai/p_9001_1_26_2389_2_1.html
-Failed: 2013-04-07 18:07:39	2013-04-07 18:07:54	1018	1	http://hzp.onlylady.com/mianmo_index/annafila/p_9001_1_26_2576_2_1.html	28	Operation timed out after 15093 milliseconds with 376825 out of -1 bytes received
-Success: 2013-04-07 18:07:44	2013-04-07 18:07:57	6534	httpcode=200	http://hzp.onlylady.com/mianbuhuli_index/bizenist/p_9001_1_26_1982_2_1.html
-Success: 2013-04-07 18:07:49	2013-04-07 18:08:02	7098	httpcode=200	http://hzp.onlylady.com/mianbuhuli_index/barielle/p_9001_1_26_1982_2_1.html
-Success: 2013-04-07 18:07:54	2013-04-07 18:08:03	2931	httpcode=200	http://hzp.onlylady.com/mianmo_index/cosen/p_9001_1_26_2513_2_1.html
-Success: 2013-04-07 18:07:59	2013-04-07 18:08:09	1656	httpcode=200	http://hzp.onlylady.com/jinghua_index/fushibyeva/p_9001_1_26_2575_2_1.html
-Success: 2013-04-07 18:08:04	2013-04-07 18:08:13	5571	httpcode=200	http://hzp.onlylady.com/mianbuhuli_index/metis/p_9001_1_26_2556_2_1.html
-Success: 2013-04-07 18:08:14	2013-04-07 18:08:21	4039	httpcode=200	http://hzp.onlylady.com/mianmo_index/purebeauty/p_9001_1_26_2573_2_1.html
-Success: 2013-04-07 18:08:19	2013-04-07 18:08:26	4717	httpcode=200	http://hzp.onlylady.com/mianmo_index/badonmagicbottle/p_9001_1_26_2329_2_1.html
-Success: 2013-04-07 18:08:24	2013-04-07 18:08:32	4981	httpcode=200	http://hzp.onlylady.com/mianmo_index/missshark/p_9001_1_26_2329_2_1.html
-Success: 2013-04-07 18:08:29	2013-04-07 18:08:38	753	httpcode=200	http://hzp.onlylady.com/jinghua_index/jplus/p_9001_1_26_2356_2_1.html
-Success: 2013-04-07 18:08:34	2013-04-07 18:08:40	6965	httpcode=200	http://hzp.onlylady.com/mianbuhuli_index/aquasprina/p_9001_1_26_2488_2_1.html
-Success: 2013-04-07 18:08:39	2013-04-07 18:08:49	1914	httpcode=200	http://hzp.onlylady.com/mianmo_index/calu/p_9001_1_26_1960_2_1.html
-Success: 2013-04-07 18:08:44	2013-04-07 18:08:53	3514	httpcode=200	http://hzp.onlylady.com/mianmo_index/asixo/p_9001_1_26_2576_2_1.html
-Success: 2013-04-07 18:08:49	2013-04-07 18:08:57	4096	httpcode=200	http://hzp.onlylady.com/mianmo_index/clio/p_9001_1_26_2337_2_1.html
-Failed: 2013-04-07 18:08:54	2013-04-07 18:09:11	1188	1	http://hzp.onlylady.com/mianshuang_index/vera/p_9001_1_26_2604_2_1.html	28	Operation timed out after 15200 milliseconds with 180217 out of -1 bytes received
-Failed: 2013-04-07 18:08:59	2013-04-07 18:09:15	3153	1	http://hzp.onlylady.com/mianmo_index/aloemastercare/p_9001_1_26_1960_2_1.html	28	Operation timed out after 15197 milliseconds with 376825 out of -1 bytes received
-Success: 2013-04-07 18:09:04	2013-04-07 18:09:19	6120	httpcode=200	http://hzp.onlylady.com/mianmo_index/gillete/p_9001_1_26_2351_0_1.html
-Success: 2013-04-07 18:09:09	2013-04-07 18:09:24	5524	httpcode=200	http://hzp.onlylady.com/mianmo_index/germainedecapuccini/p_9001_1_26_2576_2_1.html
-Failed: 2013-04-07 18:09:14	2013-04-07 18:09:30	3968	1	http://hzp.onlylady.com/mianmo_index/feidi/p_9001_1_26_2598_2_1.html	28	Operation timed out after 15347 milliseconds with 376825 out of -1 bytes received
-Failed: 2013-04-07 18:09:19	2013-04-07 18:09:35	1185	1	http://hzp.onlylady.com/jinghua_index/bicelle/p_9001_1_26_2604_2_1.html	28	Operation timed out after 15238 milliseconds with 327673 out of -1 bytes received
-Success: 2013-04-07 18:09:24	2013-04-07 18:09:39	1044	httpcode=200	http://hzp.onlylady.com/jinghua_index/kerstinflorian/p_9001_1_26_2575_2_1.html
-Success: 2013-04-07 18:09:29	2013-04-07 18:09:42	121	httpcode=200	http://hzp.onlylady.com/huazhuangshui_index/cosmedicine/p_9001_1_26_2604_0_1.html
-Success: 2013-04-07 18:09:44	2013-04-07 18:09:52	3899	httpcode=200	http://hzp.onlylady.com/mianbuhuli_index/oadmire/p_9001_1_26_2351_2_1.html
-Success: 2013-04-07 18:09:54	2013-04-07 18:10:01	5709	httpcode=200	http://hzp.onlylady.com/mianshuang_index/devi/p_9001_1_26_2351_2_1.html
-Success: 2013-04-07 18:09:59	2013-04-07 18:10:09	4535	httpcode=200	http://hzp.onlylady.com/mianmo_index/mdskincare/p_9001_1_26_2576_2_1.html
-Success: 2013-04-07 18:10:04	2013-04-07 18:10:16	3439	httpcode=200	http://hzp.onlylady.com/qitamianbumeihu_index/sofei/p_9001_1_26_2329_2_1.html
-Success: 2013-04-07 18:10:09	2013-04-07 18:10:17	1449	httpcode=200	http://hzp.onlylady.com/jinghua_index/baililan/p_9001_1_26_2452_2_1.html
-Success: 2013-04-07 18:10:14	2013-04-07 18:10:28	701	httpcode=200	http://hzp.onlylady.com/jiemian_index/ocliane/p_9001_1_23_2554_5_1.html
-Failed: 2013-04-07 18:10:19	2013-04-07 18:10:35	4478	1	http://hzp.onlylady.com/mianmo_index/murad/p_9001_1_26_2351_0_1.html	28	Operation timed out after 15815 milliseconds with 245753 out of -1 bytes received
-Failed: 2013-04-07 18:10:24	2013-04-07 18:10:41	3783	1	http://hzp.onlylady.com/luhuijiao_index/maxred/p_9001_1_26_2329_2_1.html	28	Operation timed out after 16260 milliseconds with 131065 out of -1 bytes received
-Failed: 2013-04-07 18:10:34	2013-04-07 18:10:51	7404	1	http://hzp.onlylady.com/mianbuhuli_index/neova/p_9001_1_26_2372_0_1.html	28	Operation timed out after 15920 milliseconds with 245571 out of -1 bytes received
-Failed: 2013-04-07 18:10:39	2013-04-07 18:10:56	5439	1	http://hzp.onlylady.com/jinghua_index/svr/p_9001_1_26_2389_2_1.html	28	Operation timed out after 15744 milliseconds with 131065 out of -1 bytes received
-Failed: 2013-04-07 18:10:49	2013-04-07 18:11:05	4032	1	http://hzp.onlylady.com/mianmo_index/mika/p_9001_1_26_2329_2_1.html	28	Operation timed out after 15086 milliseconds with 180035 out of -1 bytes received
-Success: 2013-04-07 18:10:54	2013-04-07 18:11:10	1707	httpcode=200	http://hzp.onlylady.com/mianmo_index/hxf/p_9001_1_26_2576_2_1.html
-Success: 2013-04-07 18:10:59	2013-04-07 18:11:14	6708	httpcode=200	http://hzp.onlylady.com/yueye_index/heynature/p_9001_1_26_2351_0_1.html
-Success: 2013-04-07 18:11:19	2013-04-07 18:11:28	3299	httpcode=200	http://hzp.onlylady.com/mianmo_index/smashbox/p_9001_1_26_2557_2_1.html
-Success: 2013-04-07 18:11:24	2013-04-07 18:11:34	7904	httpcode=200	http://hzp.onlylady.com/mianbuhuli_index/adidas/p_9001_1_26_2604_0_1.html
-Success: 2013-04-07 18:11:29	2013-04-07 18:11:37	1005	httpcode=200	http://hzp.onlylady.com/jinghua_index/gehwol/p_9001_1_26_2358_2_1.html
-Success: 2013-04-07 18:11:34	2013-04-07 18:11:43	1153	httpcode=200	http://hzp.onlylady.com/mianshuang_index/anina/p_9001_1_26_2604_2_1.html
-Success: 2013-04-07 18:11:39	2013-04-07 18:11:47	7670	httpcode=200	http://hzp.onlylady.com/qujiaozhi_index/aminogenesis/p_9001_1_26_2351_0_1.html
-Success: 2013-04-07 18:11:44	2013-04-07 18:11:55	5182	httpcode=200	http://hzp.onlylady.com/mianbuhuli_index/laneige/p_9001_1_26_2598_2_1.html
-Success: 2013-04-07 18:11:49	2013-04-07 18:11:58	8264	httpcode=200	http://hzp.onlylady.com/mianbuhuli_index/dewyterr/p_9001_1_26_2351_0_1.html
-Success: 2013-04-07 18:11:59	2013-04-07 18:12:08	4519	httpcode=200	http://hzp.onlylady.com/mianmo_index/skinbaby/p_9001_1_26_2351_2_1.html
-Success: 2013-04-07 18:12:04	2013-04-07 18:12:14	566	httpcode=200	http://hzp.onlylady.com/mianmo_index/daiyimei/p_9001_1_26_2497_2_1.html
-Success: 2013-04-07 18:12:09	2013-04-07 18:12:18	258	httpcode=200	http://hzp.onlylady.com/huazhuangshui_index/baixi/p_9001_1_26_2604_2_1.html
-Success: 2013-04-07 18:12:14	2013-04-07 18:12:23	2821	httpcode=200	http://hzp.onlylady.com/mianmo_index/jasonnatural/p_9001_1_26_1976_2_1.html
-Success: 2013-04-07 18:12:19	2013-04-07 18:12:29	508	httpcode=200	http://hzp.onlylady.com/huazhuangshui_index/xueronglantian/p_9001_1_26_2417_2_1.html
-Success: 2013-04-07 18:12:24	2013-04-07 18:12:36	375	httpcode=200	http://hzp.onlylady.com/mianmo_index/metis/p_9001_1_26_2502_2_1.html
-Failed: 2013-04-07 18:12:29	2013-04-07 18:12:45	6497	1	http://hzp.onlylady.com/mianbuhuli_index/routing/p_9001_1_26_2554_2_1.html	28	Operation timed out after 15671 milliseconds with 327673 out of -1 bytes received
-Failed: 2013-04-07 18:12:34	2013-04-07 18:13:00	5346	1	http://hzp.onlylady.com/mianbuhuli_index/thayers/p_9001_1_26_2573_2_1.html	28	Operation timed out after 25498 milliseconds with 294723 out of -1 bytes received
-Failed: 2013-04-07 18:12:39	2013-04-07 18:13:00	1631	1	http://hzp.onlylady.com/jinghua_index/awake/p_9001_1_26_2575_2_1.html	28	Operation timed out after 19983 milliseconds with 196419 out of -1 bytes received
-Failed: 2013-04-07 18:12:44	2013-04-07 18:13:01	4908	1	http://hzp.onlylady.com/mianbuhuli_index/brocato/p_9001_1_26_2351_2_1.html	28	Operation timed out after 15031 milliseconds with 360259 out of -1 bytes received
-Failed: 2013-04-07 18:12:54	2013-04-07 18:13:10	7360	1	http://hzp.onlylady.com/yueye_index/jomalone/p_9001_1_26_2351_0_1.html	28	Operation timed out after 15286 milliseconds with 376643 out of -1 bytes received
-Success: 2013-04-07 18:12:59	2013-04-07 18:13:15	4890	httpcode=200	http://hzp.onlylady.com/mianbuhuli_index/karinherzog/p_9001_1_26_2351_2_1.html
-Success: 2013-04-07 18:13:09	2013-04-07 18:13:23	5362	httpcode=200	http://hzp.onlylady.com/mianbuhuli_index/revlon/p_9001_1_26_2351_2_1.html
+Success: 2013-06-02 21:44:37	2013-06-02 21:44:37	1	httpcode=200	http://kuaixun.stcn.com/2013/0331/10383917.shtml
+Success: 2013-06-02 21:44:37	2013-06-02 21:44:37	34	httpcode=200	http://news.stcn.com/2013/0415/10412679.shtml
+Success: 2013-06-02 21:44:37	2013-06-02 21:44:37	61	httpcode=200	http://cy.stcn.com/S/SH601012
+Success: 2013-06-02 21:44:37	2013-06-02 21:44:37	69	httpcode=200	http://stock.stcn.com/2013/0423/10438065.shtml
+Success: 2013-06-02 21:44:37	2013-06-02 21:44:38	55	httpcode=200	http://future.stcn.com/2013/0329/10379384.shtml
+Success: 2013-06-02 21:44:37	2013-06-02 21:44:38	148	httpcode=200	http://company.stcn.com/2013/0402/10388201.shtml
+Success: 2013-06-02 21:44:37	2013-06-02 21:44:38	152	httpcode=200	http://hk.stcn.com/2013/0114/10225402.shtml
+Success: 2013-06-02 21:44:37	2013-06-02 21:44:38	480	httpcode=200	http://www.csair.com
+Success: 2013-06-02 21:44:37	2013-06-02 21:44:38	273	httpcode=200	http://www.stcn.com/2013/0118/10235956.shtml
+Success: 2013-06-02 21:44:37	2013-06-02 21:44:38	37	httpcode=200	http://fund.stcn.com/2013/0412/10408668.shtml
+Success: 2013-06-02 21:44:38	2013-06-02 21:44:38	752	httpcode=200	http://finance.qq.com/stock/
+Success: 2013-06-02 21:44:38	2013-06-02 21:44:40	530	httpcode=200	http://upload.stcn.com/2013/0328/1364464516959.pdf
+Success: 2013-06-02 21:44:37	2013-06-02 21:44:40	502	httpcode=200	http://edu.stcn.com/2013/0322/10362207.shtml
+Success: 2013-06-02 21:44:42	2013-06-02 21:44:42	365	httpcode=200	http://company.stcn.com/2013/0322/10362409.shtml
+Success: 2013-06-02 21:44:42	2013-06-02 21:44:42	540	httpcode=200	http://www.stcn.com/storedraft/2013/0409/10400834.shtml
+Failed: 2013-06-02 21:44:37	2013-06-02 21:44:43	4	1	http://financing.stcn.com/2013/0115/10228644.shtml	28	Resolving timed out after 5843 milliseconds
+Failed: 2013-06-02 21:44:37	2013-06-02 21:44:43	172	1	http://overseas.stcn.com/2013/0411/10405690.shtml	28	Connection timed out after 5969 milliseconds
+Success: 2013-06-02 21:44:37	2013-06-02 21:44:43	468	httpcode=200	http://xinpi.stcn.com/search.jsp?op=ksjs&kw3=sh600029
+Success: 2013-06-02 21:44:43	2013-06-02 21:44:44	501	httpcode=200	http://edu.stcn.com/2013/0322/10362341.shtml
+Success: 2013-06-02 21:44:43	2013-06-02 21:44:45	715	httpcode=200	http://xinpi.stcn.com/search.jsp?op=ksjs&kw3=sz002646
+Failed: 2013-06-02 21:44:42	2013-06-02 21:44:47	751	1	http://cy.stcn.com/S/SZ000973	28	Resolving timed out after 5014 milliseconds
+Failed: 2013-06-02 21:44:42	2013-06-02 21:44:47	749	1	http://news.stcn.com/2013/0322/10362431.shtml	28	Resolving timed out after 5014 milliseconds
+Failed: 2013-06-02 21:44:42	2013-06-02 21:44:47	748	1	http://kuaixun.stcn.com/2013/0322/10362779.shtml	28	Resolving timed out after 5014 milliseconds
+Failed: 2013-06-02 21:44:42	2013-06-02 21:44:47	736	1	http://stock.stcn.com/2013/0306/10324080.shtml	28	Resolving timed out after 5014 milliseconds
+Failed: 2013-06-02 21:44:42	2013-06-02 21:44:47	710	1	http://financing.stcn.com/2013/0327/10371569.shtml	28	Resolving timed out after 5014 milliseconds
+Failed: 2013-06-02 21:44:42	2013-06-02 21:44:47	574	1	http://fund.stcn.com/2013/0109/10214752.shtml	28	Resolving timed out after 5014 milliseconds
+Failed: 2013-06-02 21:44:42	2013-06-02 21:44:47	376	1	http://research.stcn.com/ggyj/	28	Resolving timed out after 5014 milliseconds
+Failed: 2013-06-02 21:44:37	2013-06-02 21:44:54	36	1	http://research.stcn.com/2013/0412/10408919.shtml	28	Operation timed out after 16638 milliseconds with 0 out of -1 bytes received
+Failed: 2013-06-02 21:44:42	2013-06-02 21:44:54	372	1	http://overseas.stcn.com/2013/0219/10288338.shtml	28	Resolving timed out after 11420 milliseconds
+Failed: 2013-06-02 21:44:42	2013-06-02 21:44:54	200	1	http://hk.stcn.com/2013/0116/10230787.shtml	28	Resolving timed out after 11420 milliseconds
+Failed: 2013-06-02 21:44:47	2013-06-02 21:44:54	73	1	http://fund.stcn.com/2013/0423/10436681.shtml	28	Resolving timed out after 6480 milliseconds
+Failed: 2013-06-02 21:44:47	2013-06-02 21:44:54	42	1	http://research.stcn.com/2013/0226/10302134.shtml	28	Resolving timed out after 6476 milliseconds
+Failed: 2013-06-02 21:44:47	2013-06-02 21:44:54	238	1	http://news.stcn.com/2013/0221/10292365.shtml	28	Resolving timed out after 6468 milliseconds
+Failed: 2013-06-02 21:44:47	2013-06-02 21:44:54	234	1	http://kuaixun.stcn.com/2013/0222/10296992.shtml	28	Resolving timed out after 6468 milliseconds
+Failed: 2013-06-02 21:44:47	2013-06-02 21:44:54	222	1	http://stock.stcn.com/2013/0326/10368206.shtml	28	Resolving timed out after 6468 milliseconds
+Failed: 2013-06-02 21:44:47	2013-06-02 21:44:54	209	1	http://financing.stcn.com/2013/0222/10295670.shtml	28	Resolving timed out after 6468 milliseconds
+Success: 2013-06-02 21:44:54	2013-06-02 21:44:54	489	httpcode=200	http://fund.stcn.com/2013/0325/10364280.shtml
+Success: 2013-06-02 21:44:52	2013-06-02 21:44:54	639	httpcode=200	http://news.stcn.com/2012/1225/7874348.shtml
+Success: 2013-06-02 21:44:54	2013-06-02 21:44:54	627	httpcode=200	http://company.stcn.com/2013/0320/10356757.shtml
+Success: 2013-06-02 21:44:52	2013-06-02 21:44:54	640	httpcode=200	http://cy.stcn.com/S/SZ300101
+Success: 2013-06-02 21:44:54	2013-06-02 21:44:54	293	httpcode=200	http://financing.stcn.com/2013/0220/10290333.shtml
+Success: 2013-06-02 21:44:52	2013-06-02 21:44:54	638	httpcode=200	http://kuaixun.stcn.com/2012/1226/10204166.shtml
+Success: 2013-06-02 21:44:54	2013-06-02 21:44:54	586	httpcode=200	http://overseas.stcn.com/2013/0328/10376002.shtml
+Success: 2013-06-02 21:44:52	2013-06-02 21:44:56	637	httpcode=200	http://stock.stcn.com/2012/1227/7890155.shtml
+Success: 2013-06-02 21:44:57	2013-06-02 21:44:57	68	httpcode=200	http://cy.stcn.com/S/SZ300118
+Success: 2013-06-02 21:44:59	2013-06-02 21:44:59	146	httpcode=200	http://fund.stcn.com/2013/0402/10388348.shtml
+Success: 2013-06-02 21:44:59	2013-06-02 21:44:59	194	httpcode=200	http://overseas.stcn.com/2013/0410/10401838.shtml
+Success: 2013-06-02 21:44:59	2013-06-02 21:44:59	206	httpcode=200	http://company.stcn.com/2013/0328/10375183.shtml
+Success: 2013-06-02 21:44:59	2013-06-02 21:44:59	212	httpcode=200	http://financing.stcn.com/2013/0221/10294008.shtml
+Success: 2013-06-02 21:45:02	2013-06-02 21:45:02	272	httpcode=200	http://cy.stcn.com/S/SH601311
+Success: 2013-06-02 21:44:59	2013-06-02 21:45:03	177	httpcode=200	http://hk.stcn.com/2013/0222/10295873.shtml
+Success: 2013-06-02 21:45:04	2013-06-02 21:45:04	539	httpcode=200	http://company.stcn.com/2013/0409/10400987.shtml
+Success: 2013-06-02 21:45:07	2013-06-02 21:45:07	723	httpcode=200	http://stock.stcn.com/sz/002646/bxcg.html
+Success: 2013-06-02 21:45:07	2013-06-02 21:45:07	483	httpcode=200	http://cy.stcn.com/url/mi4O
+Success: 2013-06-02 21:45:07	2013-06-02 21:45:07	741	httpcode=200	http://kuaixun.stcn.com/2013/0408/10396564.shtml
+Success: 2013-06-02 21:45:07	2013-06-02 21:45:09	742	httpcode=200	http://news.stcn.com/2013/0408/10396458.shtml
+Success: 2013-06-02 21:45:09	2013-06-02 21:45:09	651	httpcode=200	http://hk.stcn.com/2013/0327/10371755.shtml
+Success: 2013-06-02 21:45:09	2013-06-02 21:45:09	126	httpcode=200	http://fund.stcn.com/2013/0225/10298476.shtml
+Success: 2013-06-02 21:45:09	2013-06-02 21:45:09	174	httpcode=200	http://overseas.stcn.com/2013/0411/10405397.shtml
+Success: 2013-06-02 21:45:09	2013-06-02 21:45:09	183	httpcode=200	http://financing.stcn.com/2013/0410/10402656.shtml
+Success: 2013-06-02 21:45:12	2013-06-02 21:45:12	187	httpcode=200	http://cy.stcn.com/S/SH600021
+Success: 2013-06-02 21:45:12	2013-06-02 21:45:13	164	httpcode=200	http://stock.stcn.com/2013/0402/10388355.shtml
+Success: 2013-06-02 21:45:14	2013-06-02 21:45:14	292	httpcode=200	http://financing.stcn.com/2013/0220/10290568.shtml
+Success: 2013-06-02 21:45:14	2013-06-02 21:45:14	420	httpcode=200	http://overseas.stcn.com/2013/0218/10285488.shtml
+Success: 2013-06-02 21:45:14	2013-06-02 21:45:14	332	httpcode=200	http://fund.stcn.com/2013/0115/10227782.shtml
+Success: 2013-06-02 21:45:14	2013-06-02 21:45:14	456	httpcode=200	http://company.stcn.com/2013/0326/10368175.shtml

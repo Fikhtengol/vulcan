@@ -1,0 +1,1 @@
+tail --line=30  ~/public/vulcan/psven/log/psven.log

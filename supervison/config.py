@@ -21,7 +21,7 @@ workers=['192.168.53.156',
          '192.168.53.158',
          '127.0.0.1',
         ]
-redis_host='127.0.0.1'
+redis_host='172.29.140.118'
 redis_port=6379
 input_home=os.path.expanduser('~/workspaces/vulcan/supervison/loginput/')
 psven_path=os.path.expanduser('~/workspaces/vulcan/psven')

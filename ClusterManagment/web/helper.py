@@ -5,7 +5,14 @@ import json
 import hashlib
 import datetime
 import upload_remotefile
+import redis
+import ConfigParser
+from  utils.filedb import Filedb
+import sys
+sys.path.append('/home/lijun/workspaces/vulcan/')
+from supervison import config
 
+r=redis.StrictRedis(host=config.redis_host,port=config.redis_port,db=0)
 BASE_PATH = "script_files/"
 def create_scriptgroup(name):
     try :
@@ -752,6 +759,22 @@ def do_request(task_id) :
         return {"status":-1 , "val":None}
     finally :
         session.close()
+
+def getallshow():
+    res={}
+    llen=r.llen('sort')
+    num=100
+
+    if  llen<100:
+        num=llen
+    print num
+    for i in range(num,0,-1):
+        key=r.lindex('sort',i)
+        
+        value=r.hget('meta',key)
+        if value:
+            res[key]=eval(value)
+    return res
 if __name__ == '__main__':
     print do_command(1)
     print do_request(4)

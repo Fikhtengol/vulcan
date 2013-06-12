@@ -6,6 +6,7 @@ import time
 import sventypes
 import  shutil
 
+
 class Outer(threading.Thread):
 	"""each inval  output queue.output to destdir,named by time """
 	def __init__(self,queue):

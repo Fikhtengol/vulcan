@@ -63,13 +63,12 @@ class Scheduler():
 
             try:
 		for line in open(ifile):
+                    self.reload_worker()
                     if line.strip()!="":
                         node=self.pushurl(line.strip())
-                    while self.rs.llen(node)>=1000000:
-                        time.sleep(1)
                     if self.inter.running == 0:
                         break
-                    self.reload_worker()
+
                 self.get_nodes()
             except Exception,e:
                 #TODO:write to log
